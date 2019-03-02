@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\layout-land\\setup_steps_screen.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\layout-land\\setup_steps_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\layout-land\\setup_welcome_screen.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\layout-land\\setup_welcome_screen.xml"
+    }
+]

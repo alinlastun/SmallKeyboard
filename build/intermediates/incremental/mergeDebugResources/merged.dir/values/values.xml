@@ -1,0 +1,1539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="auto_correction_threshold_mode_indexes">
+      <item>@string/auto_correction_threshold_mode_index_off</item>
+      <item>@string/auto_correction_threshold_mode_index_modest</item>
+      <item>@string/auto_correction_threshold_mode_index_aggressive</item>
+      <item>@string/auto_correction_threshold_mode_index_very_aggressive</item>
+    </string-array>
+    <string-array name="auto_correction_threshold_modes">
+      <item>@string/auto_correction_threshold_mode_off</item>
+      <item>@string/auto_correction_threshold_mode_modest</item>
+      <item>@string/auto_correction_threshold_mode_aggressive</item>
+      <item>@string/auto_correction_threshold_mode_very_aggressive</item>
+    </string-array>
+    <string-array name="auto_correction_threshold_values" translatable="false">
+        <!-- Off, When auto correction setting is Off, this value is not used. -->
+        <item>floatMaxValue</item>
+        <!-- Modest : Suggestion whose normalized score is greater than this value
+             will be subject to auto-correction. -->
+        <item>0.185</item>
+        <!-- Aggressive -->
+        <item>0.067</item>
+        <!-- Very Aggressive : Suggestion whose normalized score is greater than this value
+             will be subject to auto-correction. "floatNegativeInfinity" is a special marker
+             string for Float.NEGATIVE_INFINITY -->
+        <item>floatNegativeInfinity</item>
+    </string-array>
+    <array format="string" name="emoji_emoticons">
+        <item>=-O</item>
+        <item>:-P</item>
+        <item>;-)</item>
+        <item>:-(</item>
+        <item>:-)</item>
+        <item>:-!</item>
+        <item>:-$</item>
+        <item>B-)</item>
+        <item>:O</item>
+        <item>:-*</item>
+        <item>:-D</item>
+        <item>:\'(</item>
+        <item>:-\\</item>
+        <item>O:-)</item>
+        <item>:-[</item>
+        <item>^^</item>
+        <item>-_-</item>
+    </array>
+    <array format="string" name="emoji_faces">
+        <item>270C</item> <!-- VICTORY HAND -->
+        <item>2764</item> <!-- HEAVY BLACK HEART -->
+    </array>
+    <array format="string" name="emoji_nature">
+        <item>2744</item> <!-- SNOWFLAKE -->
+    </array>
+    <array format="string" name="emoji_objects">
+        <item>260e</item> <!-- BLACK TELEPHONE -->
+        <item>2709</item> <!-- ENVELOPE -->
+        <item>2712</item> <!-- BLACK NIB -->
+        <item>270f</item> <!-- PENCIL -->
+        <item>2702</item> <!-- BLACK SCISSORS -->
+        <item>2669</item> <!-- QUARTER NOTE -->
+        <item>266a</item> <!-- EIGHTH NOTE -->
+        <item>266c</item> <!-- BEAMED SIXTEENTH NOTES -->
+    </array>
+    <array format="string" name="emoji_places">
+        <item>2708</item> <!-- AIRPLANE -->
+        <item>2668</item> <!-- HOT SPRINGS -->
+    </array>
+    <array format="string" name="emoji_recents">
+        <!-- These code point should be aligned with {@link RecentsKeyboard#TEMPLATE_KEY_CODE_*. -->
+        <item>30</item>
+        <item>31</item>
+    </array>
+    <array format="string" name="emoji_symbols">
+        <item>2460</item> <!-- CIRCLED DIGIT ONE -->
+        <item>2461</item> <!-- CIRCLED DIGIT TWO -->
+        <item>2462</item> <!-- CIRCLED DIGIT THREE -->
+        <item>2463</item> <!-- CIRCLED DIGIT FOUR -->
+        <item>2464</item> <!-- CIRCLED DIGIT FIVE -->
+        <item>2465</item> <!-- CIRCLED DIGIT SIX -->
+        <item>2466</item> <!-- CIRCLED DIGIT SEVEN -->
+        <item>2467</item> <!-- CIRCLED DIGIT EIGHT -->
+        <item>2468</item> <!-- CIRCLED DIGIT NINE -->
+        <item>2469</item> <!-- CIRCLED DIGIT TEN -->
+        <item>00ae</item> <!-- REGISTERED SIGN -->
+        <item>00a9</item> <!-- COPYRIGHT SIGN -->
+        <item>2122</item> <!-- TRADE MARK SIGN -->
+        <item>2734</item> <!-- EIGHT POINTED BLACK STAR -->
+        <item>2733</item> <!-- EIGHT POINTED PINWHEEL STAR -->
+        <item>2716</item> <!-- HEAVY MULTIPLICATION MARK -->
+        <item>2195</item> <!-- UP DOWN ARROW -->
+        <item>2197</item> <!-- NORTH EAST ARROW -->
+        <item>27a1</item> <!-- BLACK RIGHTWARDS ARROW -->
+        <item>2198</item> <!-- SOUTH EAST ARROW -->
+        <item>2199</item> <!-- SOUTH WEST ARROW -->
+        <item>2196</item> <!-- NORTH EAST ARROW -->
+        <item>2194</item> <!-- LEFT RIGHT ARROW -->
+        <item>25c0</item> <!-- BLACK LEFT-POINTING TRIANGLE -->
+        <item>25b6</item> <!-- BLACK ROGHT-POINTING TRIANGLE -->
+        <item>2747</item> <!-- SPARKLE -->
+        <item>25aa</item> <!-- BLACK SMALL SQUARE -->
+        <item>203c</item> <!-- DOUBLE EXCLAMATION MARK -->
+        <item>2660</item> <!-- BLACK SPADE SUIT -->
+        <item>2665</item> <!-- BLACK HEART SUIT -->
+        <item>2663</item> <!-- BLACK CLUB SUIT -->
+        <item>2666</item> <!-- BLACK DIAMOND SUIT -->
+        <item>21a9</item> <!-- LEFTWARDS ARROW WITH HOOK -->
+        <item>21aa</item> <!-- RIGHTWARDS ARROW WITH HOOK -->
+    </array>
+    <string-array name="keyboard_color_schemes">
+        <item>@string/keyboard_color_scheme_white</item>
+        <item>@string/keyboard_color_scheme_blue</item>
+        <item>@string/keyboard_color_scheme_material</item>
+    </string-array>
+    <string-array name="keyboard_color_schemes_values">
+        <item>2</item>
+        <item>0</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="keyboard_heights" translatable="false">
+    <!-- Preferable keyboard height in absolute scale: 1.285in -->
+        <!-- Droid -->
+        <item>HARDWARE=sholes,227.0167</item>
+        <!-- Nexus One -->
+        <item>HARDWARE=mahimahi,217.5932</item>
+        <!-- Nexus S -->
+        <item>HARDWARE=herring,200.8554</item>
+        <!-- Galaxy Nexus -->
+        <item>HARDWARE=tuna,202.5869</item>
+    <!-- Preferable keyboard height in absolute scale: 48.0mm -->
+        <!-- Xoom -->
+        <item>HARDWARE=stingray,283.1337</item>
+    <!-- Default value for unknown device: empty string -->
+        <item>,</item>
+    </string-array>
+    <string-array name="keyboard_layout_modes">
+        <item>@string/layout_ics</item>
+        <item>@string/layout_gingerbread</item>
+        <item>@string/layout_klp</item>
+    </string-array>
+    <string-array name="keyboard_layout_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="keypress_vibration_durations" translatable="false">
+        <!-- Nexus S -->
+        <item>MODEL=Nexus S:BRAND=google,5</item>
+        <!-- Galaxy Nexus -->
+        <item>MODEL=Galaxy Nexus:BRAND=google,5</item>
+        <!-- Nexus 4 -->
+        <item>MODEL=Nexus 4:BRAND=google,8</item>
+        <!-- Nexus 10 -->
+        <item>MODEL=Nexus 10:BRAND=google,16</item>
+        <!-- Samsung Galaxy SII -->
+        <item>MODEL=GT-I(9100[GMPT]?|9108|9210T?):MANUFACTURER=samsung,8</item>
+        <item>MODEL=SGH-(I9[27]7R?|I927|T989D?):MANUFACTURER=samsung,8</item>
+        <item>MODEL=SHW-M250[KLS]?|SPH-D710|SCH-R760:MANUFACTURER=samsung,8</item>
+        <item>MODEL=ISW11SC|SC-02C:MANUFACTURER=samsung,8</item>
+        <!-- Samsung Galaxy SIII -->
+        <item>MODEL=(SAMSUNG-)?GT-I(930[05][NT]?|9308):MANUFACTURER=samsung,8</item>
+        <item>MODEL=(SAMSUNG-)?SGH-(T999[V]?|I747[M]?|N064|N035):MANUFACTURER=samsung,8</item>
+        <item>MODEL=(SAMSUNG-)?SCH-(J021|R530|I535|I939):MANUFACTURER=samsung,8</item>
+        <item>MODEL=(SAMSUNG-)?(SCL21|SC-06D|SC-03E):MANUFACTURER=samsung,8</item>
+        <item>MODEL=(SAMSUNG-)?(SHV-210[KLS]?|SPH-L710):MANUFACTURER=samsung,8</item>
+        <!-- Samsung Galaxy S4 -->
+        <item>MODEL=(SAMSUNG-)?GT-I(950[0258][G]?):MANUFACTURER=samsung,7</item>
+        <item>MODEL=(SAMSUNG-)?SGH-(I337|M919|N045):MANUFACTURER=samsung,7</item>
+        <item>MODEL=(SAMSUNG-)?SCH-(I545|I959|R970):MANUFACTURER=samsung,7</item>
+        <item>MODEL=(SAMSUNG-)?SPH-(L720):MANUFACTURER=samsung,7</item>
+        <item>MODEL=(SAMSUNG-)?(SC-04E):MANUFACTURER=samsung,7</item>
+        <item>MODEL=(SAMSUNG-)?(SHV-E300[KLS]?):MANUFACTURER=samsung,7</item>
+        <!-- LG Optimus G -->
+        <item>MODEL=LG-E97[013]|LS970|L-01E:MANUFACTURER=LGE,15</item>
+        <!-- HTC One X -->
+        <item>MODEL=HTC One X:MANUFACTURER=HTC,20</item>
+        <!-- HTC One -->
+        <item>MODEL=HTC One:MANUFACTURER=HTC,15</item>
+        <item>MODEL=HTL22:MANUFACTURER=HTC,15</item>
+        <!-- Motorola Razor M -->
+        <item>MODEL=XT907:MANUFACTURER=motorola,30</item>
+        <!-- Motorola DVX -->
+        <item>MODEL=XT1035:MANUFACTURER=motorola,18</item>
+        <!-- Sony Xperia Z, Z Ultra -->
+        <item>MODEL=C6603|C6806:MANUFACTURER=Sony,35</item>
+        <!-- Default value for unknown device. The negative value means system default. -->
+        <item>,-1</item>
+    </string-array>
+    <string-array name="keypress_volumes" translatable="false">
+        <item>HARDWARE=herring,0.5f</item>
+        <item>HARDWARE=tuna,0.5f</item>
+        <item>HARDWARE=stingray,0.4f</item>
+        <item>HARDWARE=grouper,0.3f</item>
+        <item>HARDWARE=mako,0.3f</item>
+        <item>HARDWARE=manta,0.2f</item>
+        <!-- Default value for unknown device. The negative value means system default. -->
+        <item>,-1.0f</item>
+    </string-array>
+    <string-array name="locale_and_extra_value_to_keyboard_layout_set_map">
+        <item>en_US:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>en_GB:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>ar:SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>arabic</item>
+        <item>cs:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwertz</item>
+        <item>da:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>nordic</item>
+        <item>de:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwertz</item>
+        <item>es:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>spanish</item>
+        <item>fi:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>nordic</item>
+        <item>fr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>azerty</item>
+        <item>fr_CA:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>hr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwertz</item>
+        <item>hu:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwertz</item>
+        <item>it:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>iw:SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>hebrew</item>
+        <item>nb:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>nordic</item>
+        <item>nl:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>pl:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+        <item>ru:SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>east_slavic</item>
+        <item>sr:SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>south_slavic</item>
+        <item>sv:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>nordic</item>
+        <item>tr:AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>qwerty</item>
+    </string-array>
+    <string-array name="phantom_sudden_move_event_device_list" translatable="false">
+        <!-- "Build condition,true" that needs "phantom sudden move event" hack.
+             See {@link com.android.inputmethod.keyboard.PointerTracker}. -->
+        <!-- Xoom -->
+        <item>HARDWARE=stingray,true</item>
+        <!-- Default value for unknown device -->
+        <item>,false</item>
+    </string-array>
+    <string-array name="predefined_layout_display_names">
+        <item>English</item>
+    </string-array>
+    <string-array name="predefined_layouts">
+        <item>qwerty</item>
+    </string-array>
+    <string-array name="predefined_subtypes" translatable="false">
+    </string-array>
+    <string-array name="prefs_suggestion_visibilities">
+       <item>@string/prefs_suggestion_visibility_show_name</item>
+       <item>@string/prefs_suggestion_visibility_show_only_portrait_name</item>
+       <item>@string/prefs_suggestion_visibility_hide_name</item>
+    </string-array>
+    <string-array name="prefs_suggestion_visibility_values">
+       <item>@string/prefs_suggestion_visibility_show_value</item>
+       <item>@string/prefs_suggestion_visibility_show_only_portrait_value</item>
+       <item>@string/prefs_suggestion_visibility_hide_value</item>
+    </string-array>
+    <string-array name="subtype_locale_exception_keys">
+        <item>en_US</item>
+        <item>en_GB</item>
+        <item>es_US</item>
+    </string-array>
+    <string-array name="touch_position_correction_data_default" translatable="false">
+        <!-- The default touch position data (See com.android.inputmethod.keyboard.ProximityInfo)
+             correctionX = 0.0f
+             correctionY = 0.0f
+             correctionR = DEFAULT_TOUCH_POSITION_CORRECTION_RADIUS
+        -->
+    </string-array>
+    <string-array name="touch_position_correction_data_gb" translatable="false">
+        <!-- First row -->
+        <item>0.0091285</item>
+        <item>0.1193203</item>
+        <item>0.1622607</item>
+
+        <!-- Second row -->
+        <item>-0.0233128</item>
+        <item>0.1379798</item>
+        <item>0.1585229</item>
+
+        <!-- Third row -->
+        <item>-0.0080185</item>
+        <item>0.1911477</item>
+        <item>0.1570948</item>
+    </string-array>
+    <string-array name="touch_position_correction_data_holo" translatable="false">
+        <!-- First row -->
+        <item>0.0038756</item>
+        <item>-0.0005677</item>
+        <item>0.1577026</item>
+
+        <!-- Second row -->
+        <item>-0.0236678</item>
+        <item>0.0381731</item>
+        <item>0.1529972</item>
+
+        <!-- Third row -->
+        <item>-0.0086827</item>
+        <item>0.0880847</item>
+        <item>0.1522819</item>
+    </string-array>
+    <string-array name="voice_input_modes">
+        <item>@string/voice_input_modes_main_keyboard</item>
+        <item>@string/voice_input_modes_symbols_keyboard</item>
+        <item>@string/voice_input_modes_off</item>
+    </string-array>
+    <string-array name="voice_input_modes_summary">
+        <item>@string/voice_input_modes_summary_main_keyboard</item>
+        <item>@string/voice_input_modes_summary_symbols_keyboard</item>
+        <item>@string/voice_input_modes_summary_off</item>
+    </string-array>
+    <string-array name="voice_input_modes_values">
+        <item>@string/voice_mode_main</item>
+        <item>@string/voice_mode_symbols</item>
+        <item>@string/voice_mode_off</item>
+    </string-array>
+    <bool name="allow_over_metered">false</bool>
+    <bool name="allow_over_roaming">false</bool>
+    <bool name="config_block_potentially_offensive">true</bool>
+    <bool name="config_default_key_preview_popup">true</bool>
+    <bool name="config_default_next_word_prediction">true</bool>
+    <bool name="config_default_phrase_gesture_enabled">false</bool>
+    <bool name="config_default_sound_enabled">false</bool>
+    <bool name="config_default_vibration_enabled">true</bool>
+    <bool name="config_enable_show_option_of_key_preview_popup">true</bool>
+    <bool name="config_enable_show_voice_key_option">true</bool>
+    <bool name="config_enable_usability_study_mode_option">true</bool>
+    <bool name="config_gesture_input_enabled_by_build_config">false</bool>
+    <bool name="config_setup_wizard_available">false</bool>
+    <bool name="config_show_more_keys_keyboard_at_touched_point">false</bool>
+    <bool name="config_sliding_key_input_enabled">true</bool>
+    <bool name="config_use_fullscreen_mode">false</bool>
+    <bool name="current_language_has_spaces">true</bool>
+    <bool name="dict_downloads_visible_in_download_UI">false</bool>
+    <bool name="display_notification_for_auto_update">false</bool>
+    <bool name="display_notification_for_user_requested_update">false</bool>
+    <bool name="im_is_default">false</bool>
+    <bool name="metadata_downloads_visible_in_download_UI">false</bool>
+    <color name="emoji_category_page_id_view_background">#FF000000</color>
+    <color name="emoji_category_page_id_view_foreground">#80FFFFFF</color>
+    <color name="emoji_key_background_color">#00000000</color>
+    <color name="emoji_key_pressed_background_color">#30FFFFFF</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">#ff263238</color>
+    <color name="gesture_floating_preview_color_gb">#C0000000</color>
+    <color name="gesture_floating_preview_color_holo">#C0000000</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#c0000000</color>
+    <color name="highlight_color_gb">#FFFCAE00</color>
+    <color name="highlight_color_ics">#FF33B5E5</color>
+    <color name="highlight_color_klp">#FFF0F0F0</color>
+    <color name="highlight_color_lxx_dark">#ff7fcac3</color>
+    <color name="highlight_translucent_color_gb">#99FCAE00</color>
+    <color name="highlight_translucent_color_ics">#9933B5E5</color>
+    <color name="highlight_translucent_color_klp">#99E0E0E0</color>
+    <color name="highlight_translucent_color_lxx_dark">#997fcac3</color>
+    <color name="key_background_lxx_dark">#ff384248</color>
+    <color name="key_background_pressed_lxx_dark">#ff546872</color>
+    <color name="key_hint_label_color_gb">#E0E0E4E5</color>
+    <color name="key_hint_label_color_holo">#A0FFFFFF</color>
+    <color name="key_hint_letter_color_gb">#80000000</color>
+    <color name="key_hint_letter_color_holo">#80000000</color>
+    <color name="key_hint_letter_color_lxx_dark">#ff808184</color>
+    <color name="key_shifted_letter_hint_activated_color_gb">#CCE0E4E5</color>
+    <color name="key_shifted_letter_hint_activated_color_holo">@android:color/white</color>
+    <color name="key_shifted_letter_hint_inactivated_color_gb">#66E0E4E5</color>
+    <color name="key_shifted_letter_hint_inactivated_color_holo">#66E0E4E5</color>
+    <color name="key_text_color_functional_holo">@android:color/white</color>
+    <color name="key_text_color_gb">@android:color/white</color>
+    <color name="key_text_color_lxx_dark">#ffffffff</color>
+    <color name="key_text_color_normal_holo">@android:color/white</color>
+    <color name="key_text_inactivated_color_gb">#66E0E4E5</color>
+    <color name="key_text_inactivated_color_holo">#66E0E4E5</color>
+    <color name="key_text_inactive_color_lxx_dark">#ff808184</color>
+    <color name="key_text_shadow_color_gb">#BB000000</color>
+    <color name="key_text_shadow_color_holo">@android:color/transparent</color>
+    <color name="keyboard_background_lxx_dark">#ff384248</color>
+    <color name="setup_background">#FFEBEBEB</color>
+    <color name="setup_step_background">@android:color/background_light</color>
+    <color name="setup_text_action">@android:color/holo_blue_light</color>
+    <color name="setup_text_dark">#FF707070</color>
+    <color name="setup_welcome_video_margin_color">#FFCCCCCC</color>
+    <color name="spacebar_text_color_gb">#FFC0C0C0</color>
+    <color name="spacebar_text_color_holo">#FFC0C0C0</color>
+    <color name="spacebar_text_shadow_color_gb">#80000000</color>
+    <color name="spacebar_text_shadow_color_holo">#80000000</color>
+    <color name="suggested_word_background_selected_lxx_dark">#ff384248</color>
+    <color name="suggested_word_color_ics">#B233B5E5</color>
+    <color name="suggested_word_color_klp">#B2F0F0F0</color>
+    <color name="suggested_word_color_lxx_dark">#b27fcac3</color>
+    <color name="suggestions_strip_background_lxx_dark">#ff263238</color>
+    <color name="typed_word_color_gb">@android:color/white</color>
+    <color name="typed_word_color_ics">#D833B5E5</color>
+    <color name="typed_word_color_klp">#D8F0F0F0</color>
+    <color name="typed_word_color_lxx_dark">#d87fcac3</color>
+    <declare-styleable name="EmojiPalettesView"><attr format="reference" name="emojiTabLabelColor"/></declare-styleable>
+    <declare-styleable name="Keyboard"><attr format="integer" name="themeId"/><attr format="reference" name="touchPositionCorrectionData"/><attr format="fraction" name="keyboardTopPadding"/><attr format="fraction" name="keyboardBottomPadding"/><attr format="fraction" name="keyboardLeftPadding"/><attr format="fraction" name="keyboardRightPadding"/><attr format="dimension|fraction" name="rowHeight"/><attr format="fraction" name="horizontalGap"/><attr format="fraction" name="verticalGap"/><attr format="reference" name="moreKeysTemplate"/><attr format="reference" name="iconShiftKey"/><attr format="reference" name="iconDeleteKey"/><attr format="reference" name="iconSettingsKey"/><attr format="reference" name="iconSpaceKey"/><attr format="reference" name="iconEnterKey"/><attr format="reference" name="iconSearchKey"/><attr format="reference" name="iconGoKey"/><attr format="reference" name="iconSendKey"/><attr format="reference" name="iconNextKey"/><attr format="reference" name="iconDoneKey"/><attr format="reference" name="iconPreviousKey"/><attr format="reference" name="iconTabKey"/><attr format="reference" name="iconShortcutKey"/><attr format="reference" name="iconShortcutForLabel"/><attr format="reference" name="iconSpaceKeyForNumberLayout"/><attr format="reference" name="iconShiftKeyShifted"/><attr format="reference" name="iconShortcutKeyDisabled"/><attr format="reference" name="iconTabKeyPreview"/><attr format="reference" name="iconLanguageSwitchKey"/><attr format="reference" name="iconZwnjKey"/><attr format="reference" name="iconZwjKey"/><attr format="reference" name="iconImeKey"/><attr format="reference" name="iconEmojiKey"/></declare-styleable>
+    <declare-styleable name="KeyboardLayoutSet_Element"><attr format="enum" name="elementName">
+            <enum name="alphabet" value="0"/>
+            <enum name="alphabetManualShifted" value="1"/>
+            <enum name="alphabetAutomaticShifted" value="2"/>
+            <enum name="alphabetShiftLocked" value="3"/>
+            <enum name="alphabetShiftLockShifted" value="4"/>
+            <enum name="symbols" value="5"/>
+            <enum name="symbolsShifted" value="6"/>
+            <enum name="phone" value="7"/>
+            <enum name="phoneSymbols" value="8"/>
+            <enum name="number" value="9"/>
+            <enum name="emojiRecents" value="10"/>
+            <enum name="emojiCategory1" value="11"/>
+            <enum name="emojiCategory2" value="12"/>
+            <enum name="emojiCategory3" value="13"/>
+            <enum name="emojiCategory4" value="14"/>
+            <enum name="emojiCategory5" value="15"/>
+            <enum name="emojiCategory6" value="16"/>
+        </attr><attr format="reference" name="elementKeyboard"/><attr format="boolean" name="enableProximityCharsCorrection"/></declare-styleable>
+    <declare-styleable name="KeyboardTheme"><attr format="reference" name="keyboardStyle"/><attr format="reference" name="keyboardViewStyle"/><attr format="reference" name="mainKeyboardViewStyle"/><attr format="reference" name="emojiPalettesViewStyle"/><attr format="reference" name="moreKeysKeyboardStyle"/><attr format="reference" name="moreKeysKeyboardViewStyle"/><attr format="reference" name="moreKeysKeyboardContainerStyle"/><attr format="reference" name="suggestionStripViewStyle"/><attr format="reference" name="suggestionWordStyle"/></declare-styleable>
+    <declare-styleable name="KeyboardView"><attr format="reference" name="keyBackground"/><attr format="reference" name="keyBackgroundEmojiFunctional"/><attr format="dimension" name="keyLabelHorizontalPadding"/><attr format="dimension" name="keyHintLetterPadding"/><attr format="dimension" name="keyPopupHintLetterPadding"/><attr format="dimension" name="keyShiftedLetterHintPadding"/><attr format="float" name="keyTextShadowRadius"/><attr format="boolean" name="state_left_edge"/><attr format="boolean" name="state_right_edge"/><attr format="boolean" name="state_has_morekeys"/><attr format="dimension" name="verticalCorrection"/></declare-styleable>
+    <declare-styleable name="Keyboard_Case"><attr format="string" name="keyboardLayoutSet"/><attr format="enum|string" name="keyboardLayoutSetElement">
+            <enum name="alphabet" value="0"/>
+            <enum name="alphabetManualShifted" value="1"/>
+            <enum name="alphabetAutomaticShifted" value="2"/>
+            <enum name="alphabetShiftLocked" value="3"/>
+            <enum name="alphabetShiftLockShifted" value="4"/>
+            <enum name="symbols" value="5"/>
+            <enum name="symbolsShifted" value="6"/>
+            <enum name="phone" value="7"/>
+            <enum name="phoneSymbols" value="8"/>
+            <enum name="number" value="9"/>
+            <enum name="emojiRecents" value="10"/>
+            <enum name="emojiCategory1" value="11"/>
+            <enum name="emojiCategory2" value="12"/>
+            <enum name="emojiCategory3" value="13"/>
+            <enum name="emojiCategory4" value="14"/>
+            <enum name="emojiCategory5" value="15"/>
+            <enum name="emojiCategory6" value="16"/>
+        </attr><attr format="enum|string" name="mode">
+            <enum name="text" value="0"/>
+            <enum name="url" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="im" value="3"/>
+            <enum name="phone" value="4"/>
+            <enum name="number" value="5"/>
+        </attr><attr format="boolean" name="navigateNext"/><attr format="boolean" name="navigatePrevious"/><attr format="boolean" name="passwordInput"/><attr format="boolean" name="clobberSettingsKey"/><attr format="boolean" name="shortcutKeyEnabled"/><attr format="boolean" name="shortcutKeyOnSymbols"/><attr format="boolean" name="hasShortcutKey"/><attr format="boolean" name="languageSwitchKeyEnabled"/><attr format="boolean" name="isMultiLine"/><attr format="enum" name="imeAction">
+            
+            <enum name="actionUnspecified" value="0"/>
+            <enum name="actionNone" value="1"/>
+            <enum name="actionGo" value="2"/>
+            <enum name="actionSearch" value="3"/>
+            <enum name="actionSend" value="4"/>
+            <enum name="actionNext" value="5"/>
+            <enum name="actionDone" value="6"/>
+            <enum name="actionPrevious" value="7"/>
+            
+            <enum name="actionCustomLabel" value="0x100"/>
+        </attr><attr format="string" name="isIconDefined"/><attr format="string" name="localeCode"/><attr format="string" name="languageCode"/><attr format="string" name="countryCode"/></declare-styleable>
+    <declare-styleable name="Keyboard_GridRows"><attr format="reference" name="codesArray"/><attr format="reference" name="textsArray"/></declare-styleable>
+    <declare-styleable name="Keyboard_Include"><attr format="reference" name="keyboardLayout"/></declare-styleable>
+    <declare-styleable name="Keyboard_Key"><attr format="string" name="code"/><attr format="string" name="altCode"/><attr format="string" name="moreKeys"/><attr format="string" name="additionalMoreKeys"/><attr format="integer" name="maxMoreKeysColumn"/><attr format="enum" name="backgroundType">
+            
+            <enum name="empty" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="functional" value="2"/>
+            <enum name="action" value="3"/>
+            <enum name="stickyOff" value="4"/>
+            <enum name="stickyOn" value="5"/>
+        </attr><attr format="integer" name="keyActionFlags">
+            
+            <flag name="isRepeatable" value="0x01"/>
+            <flag name="noKeyPreview" value="0x02"/>
+            <flag name="altCodeWhileTyping" value="0x04"/>
+            <flag name="enableLongPress" value="0x08"/>
+        </attr><attr format="string" name="keyOutputText"/><attr format="string" name="keyLabel"/><attr format="string" name="keyHintLabel"/><attr format="integer" name="keyLabelFlags">
+            
+            <flag name="alignLeft" value="0x01"/>
+            <flag name="alignRight" value="0x02"/>
+            <flag name="alignLeftOfCenter" value="0x08"/>
+            <flag name="fontNormal" value="0x10"/>
+            <flag name="fontMonoSpace" value="0x20"/>
+            <flag name="followKeyLargeLetterRatio" value="0x40"/>
+            <flag name="followKeyLetterRatio" value="0x80"/>
+            <flag name="followKeyLabelRatio" value="0xC0"/>
+            <flag name="followKeyLargeLabelRatio" value="0x100"/>
+            <flag name="followKeyHintLabelRatio" value="0x140"/>
+            <flag name="hasPopupHint" value="0x200"/>
+            <flag name="hasShiftedLetterHint" value="0x400"/>
+            <flag name="hasHintLabel" value="0x800"/>
+            <flag name="withIconLeft" value="0x1000"/>
+            <flag name="withIconRight" value="0x2000"/>
+            <flag name="autoXScale" value="0x4000"/>
+            
+            <flag name="preserveCase" value="0x8000"/>
+            
+            <flag name="shiftedLetterActivated" value="0x10000"/>
+            
+            <flag name="fromCustomActionLabel" value="0x20000"/>
+            
+            <flag name="disableKeyHintLabel" value="0x40000000"/>
+            
+            <flag name="disableAdditionalMoreKeys" value="0x80000000"/>
+        </attr><attr format="string" name="keyIcon"/><attr format="string" name="keyIconDisabled"/><attr format="string" name="keyIconPreview"/><attr format="string" name="keyStyle"/><attr format="fraction" name="visualInsetsLeft"/><attr format="fraction" name="visualInsetsRight"/><attr format="fraction|enum" name="keyWidth">
+            <enum name="fillRight" value="-1"/>
+        </attr><attr format="fraction" name="keyXPos"/><attr format="enum" name="keyTypeface">
+            
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="boldItalic" value="3"/>
+        </attr><attr format="dimension|fraction" name="keyLetterSize"/><attr format="dimension|fraction" name="keyLabelSize"/><attr format="fraction" name="keyLargeLetterRatio"/><attr format="fraction" name="keyLargeLabelRatio"/><attr format="fraction" name="keyHintLetterRatio"/><attr format="fraction" name="keyHintLabelRatio"/><attr format="fraction" name="keyShiftedLetterHintRatio"/><attr format="color" name="keyTextColor"/><attr format="color" name="keyTextShadowColor"/><attr format="color" name="keyTextInactivatedColor"/><attr format="color" name="keyHintLetterColor"/><attr format="color" name="keyHintLabelColor"/><attr format="color" name="keyShiftedLetterHintInactivatedColor"/><attr format="color" name="keyShiftedLetterHintActivatedColor"/><attr format="color" name="keyPreviewTextColor"/><attr format="fraction" name="keyPreviewTextRatio"/></declare-styleable>
+    <declare-styleable name="Keyboard_KeyStyle"><attr format="string" name="styleName"/><attr format="string" name="parentStyle"/></declare-styleable>
+    <declare-styleable name="MainKeyboardView"><attr format="boolean" name="autoCorrectionSpacebarLedEnabled"/><attr format="reference" name="autoCorrectionSpacebarLedIcon"/><attr format="fraction" name="spacebarTextRatio"/><attr format="color" name="spacebarTextColor"/><attr format="color" name="spacebarTextShadowColor"/><attr format="integer" name="languageOnSpacebarFinalAlpha"/><attr format="reference" name="languageOnSpacebarFadeoutAnimator"/><attr format="reference" name="altCodeKeyWhileTypingFadeoutAnimator"/><attr format="reference" name="altCodeKeyWhileTypingFadeinAnimator"/><attr format="dimension" name="keyHysteresisDistance"/><attr format="dimension" name="keyHysteresisDistanceForSlidingModifier"/><attr format="integer" name="touchNoiseThresholdTime"/><attr format="dimension" name="touchNoiseThresholdDistance"/><attr format="boolean" name="slidingKeyInputEnable"/><attr format="color" name="slidingKeyInputPreviewColor"/><attr format="dimension" name="slidingKeyInputPreviewWidth"/><attr format="integer" name="slidingKeyInputPreviewBodyRatio"/><attr format="integer" name="slidingKeyInputPreviewShadowRatio"/><attr format="integer" name="keyRepeatStartTimeout"/><attr format="integer" name="keyRepeatInterval"/><attr format="integer" name="longPressShiftLockTimeout"/><attr format="integer" name="ignoreAltCodeKeyTimeout"/><attr format="reference" name="keyPreviewLayout"/><attr format="dimension" name="keyPreviewOffset"/><attr format="dimension" name="keyPreviewHeight"/><attr format="integer" name="keyPreviewLingerTimeout"/><attr format="reference" name="moreKeysKeyboardLayout"/><attr format="integer" name="backgroundDimAlpha"/><attr format="boolean" name="showMoreKeysKeyboardAtTouchedPoint"/><attr format="dimension" name="gestureTrailMinSamplingDistance"/><attr format="integer" name="gestureTrailMaxInterpolationAngularThreshold"/><attr format="dimension" name="gestureTrailMaxInterpolationDistanceThreshold"/><attr format="integer" name="gestureTrailMaxInterpolationSegments"/><attr format="integer" name="gestureTrailFadeoutStartDelay"/><attr format="integer" name="gestureTrailFadeoutDuration"/><attr format="integer" name="gestureTrailUpdateInterval"/><attr format="color" name="gestureTrailColor"/><attr format="dimension" name="gestureTrailStartWidth"/><attr format="dimension" name="gestureTrailEndWidth"/><attr format="integer" name="gestureTrailBodyRatio"/><attr format="integer" name="gestureTrailShadowRatio"/><attr format="integer" name="gestureFloatingPreviewTextLingerTimeout"/><attr format="dimension" name="gestureFloatingPreviewTextSize"/><attr format="color" name="gestureFloatingPreviewTextColor"/><attr format="dimension" name="gestureFloatingPreviewTextOffset"/><attr format="color" name="gestureFloatingPreviewColor"/><attr format="dimension" name="gestureFloatingPreviewHorizontalPadding"/><attr format="dimension" name="gestureFloatingPreviewVerticalPadding"/><attr format="dimension" name="gestureFloatingPreviewRoundRadius"/><attr format="integer" name="gestureStaticTimeThresholdAfterFastTyping"/><attr format="fraction" name="gestureDetectFastMoveSpeedThreshold"/><attr format="integer" name="gestureDynamicThresholdDecayDuration"/><attr format="integer" name="gestureDynamicTimeThresholdFrom"/><attr format="integer" name="gestureDynamicTimeThresholdTo"/><attr format="fraction" name="gestureDynamicDistanceThresholdFrom"/><attr format="fraction" name="gestureDynamicDistanceThresholdTo"/><attr format="fraction" name="gestureSamplingMinimumDistance"/><attr format="integer" name="gestureRecognitionMinimumTime"/><attr format="integer" name="gestureRecognitionUpdateTime"/><attr format="fraction" name="gestureRecognitionSpeedThreshold"/><attr format="integer" name="suppressKeyPreviewAfterBatchInputDuration"/></declare-styleable>
+    <declare-styleable name="SeekBarDialogPreference"><attr format="integer" name="maxValue"/><attr format="integer" name="minValue"/><attr format="integer" name="stepValue"/></declare-styleable>
+    <declare-styleable name="SuggestionStripView"><attr format="integer" name="suggestionStripOption">
+            
+            <flag name="autoCorrectBold" value="0x01"/>
+            <flag name="autoCorrectUnderline" value="0x02"/>
+            <flag name="validTypedWordBold" value="0x04"/>
+        </attr><attr format="color" name="colorValidTypedWord"/><attr format="color" name="colorTypedWord"/><attr format="color" name="colorAutoCorrect"/><attr format="color" name="colorSuggested"/><attr format="fraction" name="alphaObsoleted"/><attr format="integer" name="suggestionsCountInStrip"/><attr format="fraction" name="centerSuggestionPercentile"/><attr format="integer" name="maxMoreSuggestionsRow"/><attr format="float" name="minMoreSuggestionsWidth"/></declare-styleable>
+    <dimen name="accessibility_edge_slop">8dp</dimen>
+    <dimen name="config_key_hysteresis_distance">8.0dp</dimen>
+    <dimen name="config_key_hysteresis_distance_for_sliding_modifier">8.0dp</dimen>
+    <dimen name="config_sliding_key_input_preview_width">8.0dp</dimen>
+    <dimen name="config_touch_noise_threshold_distance">12.6dp</dimen>
+    <dimen name="emoji_category_page_id_height">3dp</dimen>
+    <dimen name="gesture_floating_preview_horizontal_padding">24dp</dimen>
+    <dimen name="gesture_floating_preview_round_radius">2dp</dimen>
+    <dimen name="gesture_floating_preview_text_offset">73dp</dimen>
+    <dimen name="gesture_floating_preview_text_size">24dp</dimen>
+    <dimen name="gesture_floating_preview_vertical_padding">16dp</dimen>
+    <dimen name="gesture_trail_end_width">2.5dp</dimen>
+    <dimen name="gesture_trail_max_interpolation_distance_threshold">16.0dp</dimen>
+    <dimen name="gesture_trail_min_sampling_distance">9.6dp</dimen>
+    <dimen name="gesture_trail_start_width">10.0dp</dimen>
+    <dimen name="key_hint_letter_padding">1dp</dimen>
+    <dimen name="key_label_horizontal_padding">4dp</dimen>
+    <dimen name="key_popup_hint_letter_padding">2dp</dimen>
+    <dimen name="key_preview_height">80dp</dimen>
+    <dimen name="key_preview_offset_gb">-8.0dp</dimen>
+    <dimen name="key_preview_offset_holo">8.0dp</dimen>
+    <dimen name="key_uppercase_letter_padding">2dp</dimen>
+    <dimen name="keyboardHeight">205.6dp</dimen>
+    <dimen name="keyboard_vertical_correction">0.0dp</dimen>
+    <dimen name="language_on_spacebar_horizontal_margin">1dp</dimen>
+    <dimen name="more_keys_keyboard_key_horizontal_padding">8dp</dimen>
+    <dimen name="more_keys_keyboard_slide_allowance">63.36dp</dimen>
+    <dimen name="more_keys_keyboard_vertical_correction_gb">-52.8dp</dimen>
+    <dimen name="more_keys_keyboard_vertical_correction_holo">-26.4dp</dimen>
+    <dimen name="more_suggestions_bottom_gap">6dp</dimen>
+    <dimen name="more_suggestions_hint_text_size">27dp</dimen>
+    <dimen name="more_suggestions_key_horizontal_padding">12dp</dimen>
+    <dimen name="more_suggestions_modal_tolerance">32.0dp</dimen>
+    <dimen name="more_suggestions_row_height">40dp</dimen>
+    <dimen name="more_suggestions_slide_allowance">16.0dp</dimen>
+    <dimen name="popup_key_height">52.8dp</dimen>
+    <dimen name="suggestion_min_width">44dp</dimen>
+    <dimen name="suggestion_padding">6dp</dimen>
+    <dimen name="suggestion_text_size">18dp</dimen>
+    <dimen name="suggestions_strip_height">40dp</dimen>
+    <dimen name="suggestions_strip_padding">0dp</dimen>
+    <fraction name="center_suggestion_percentile">36%</fraction>
+    <fraction name="config_gesture_detect_fast_move_speed_threshold">150%</fraction>
+    <fraction name="config_gesture_dynamic_distance_threshold_from">600%</fraction>
+    <fraction name="config_gesture_dynamic_distance_threshold_to">50%</fraction>
+    <fraction name="config_gesture_recognition_speed_threshold">550%</fraction>
+    <fraction name="config_gesture_sampling_minimum_distance">16.6666%</fraction>
+    <fraction name="emoji_keyboard_key_letter_size">68%p</fraction>
+    <fraction name="emoji_keyboard_key_width">14.2857%p</fraction>
+    <fraction name="emoji_keyboard_row_height">33%p</fraction>
+    <fraction name="key_bottom_gap_5row">3.20%p</fraction>
+    <fraction name="key_bottom_gap_gb">6.495%p</fraction>
+    <fraction name="key_bottom_gap_holo">6.127%p</fraction>
+    <fraction name="key_hint_label_ratio">44%</fraction>
+    <fraction name="key_hint_letter_ratio">25%</fraction>
+    <fraction name="key_horizontal_gap_gb">1.971%p</fraction>
+    <fraction name="key_horizontal_gap_holo">1.739%p</fraction>
+    <fraction name="key_label_ratio">34%</fraction>
+    <fraction name="key_large_label_ratio">40%</fraction>
+    <fraction name="key_large_letter_ratio">65%</fraction>
+    <fraction name="key_letter_ratio">55%</fraction>
+    <fraction name="key_letter_ratio_5row">64%</fraction>
+    <fraction name="key_preview_text_ratio">82%</fraction>
+    <fraction name="key_uppercase_letter_ratio">35%</fraction>
+    <fraction name="key_uppercase_letter_ratio_5row">41%</fraction>
+    <fraction name="keyboard_bottom_padding_gb">4.669%p</fraction>
+    <fraction name="keyboard_bottom_padding_holo">4.669%p</fraction>
+    <fraction name="keyboard_left_padding">0%p</fraction>
+    <fraction name="keyboard_right_padding">0%p</fraction>
+    <fraction name="keyboard_top_padding_gb">1.556%p</fraction>
+    <fraction name="keyboard_top_padding_holo">2.335%p</fraction>
+    <fraction name="maxKeyboardHeight">46%p</fraction>
+    <fraction name="minKeyboardHeight">-61.8%p</fraction>
+    <fraction name="min_more_suggestions_width">90%</fraction>
+    <fraction name="more_suggestions_info_ratio">18%</fraction>
+    <fraction name="spacebar_text_ratio">33.735%</fraction>
+    <integer name="config_default_longpress_key_timeout">300</integer>
+    <integer name="config_delay_update_old_suggestions">300</integer>
+    <integer name="config_delay_update_shift_state">100</integer>
+    <integer name="config_delay_update_suggestions">100</integer>
+    <integer name="config_double_space_period_timeout">1100</integer>
+    <integer name="config_gesture_dynamic_threshold_decay_duration">450</integer>
+    <integer name="config_gesture_dynamic_time_threshold_from">300</integer>
+    <integer name="config_gesture_dynamic_time_threshold_to">20</integer>
+    <integer name="config_gesture_floating_preview_text_linger_timeout">200</integer>
+    <integer name="config_gesture_recognition_minimum_time">100</integer>
+    <integer name="config_gesture_recognition_update_time">100</integer>
+    <integer name="config_gesture_static_time_threshold_after_fast_typing">500</integer>
+    <integer name="config_gesture_trail_fadeout_duration">800</integer>
+    <integer name="config_gesture_trail_fadeout_start_delay">100</integer>
+    <integer name="config_gesture_trail_update_interval">20</integer>
+    <integer name="config_ignore_alt_code_key_timeout">350</integer>
+    <integer name="config_key_preview_linger_timeout">70</integer>
+    <integer name="config_key_repeat_interval">50</integer>
+    <integer name="config_key_repeat_start_timeout">400</integer>
+    <integer name="config_keyboard_grid_height">16</integer>
+    <integer name="config_keyboard_grid_width">32</integer>
+    <integer name="config_language_on_spacebar_final_alpha">128</integer>
+    <integer name="config_longpress_shift_lock_timeout">1200</integer>
+    <integer name="config_longpress_timeout_step">10</integer>
+    <integer name="config_max_longpress_timeout">700</integer>
+    <integer name="config_max_more_keys_column">5</integer>
+    <integer name="config_max_vibration_duration">100</integer>
+    <integer name="config_min_longpress_timeout">100</integer>
+    <integer name="config_more_keys_keyboard_fadein_anim_time">0</integer>
+    <integer name="config_more_keys_keyboard_fadeout_anim_time">100</integer>
+    <integer name="config_sliding_key_input_preview_body_ratio">100</integer>
+    <integer name="config_sliding_key_input_preview_shadow_ratio">-1</integer>
+    <integer name="config_suppress_key_preview_after_batch_input_duration">1000</integer>
+    <integer name="config_touch_noise_threshold_time">40</integer>
+    <integer name="emoji_keyboard_max_key_count">21</integer>
+    <integer name="gesture_trail_body_ratio">100</integer>
+    <integer name="gesture_trail_max_interpolation_angular_threshold">15</integer>
+    <integer name="gesture_trail_max_interpolation_segments">6</integer>
+    <integer name="gesture_trail_shadow_ratio">-1</integer>
+    <integer name="log_screen_metrics">0</integer>
+    <integer name="max_more_suggestions_row">6</integer>
+    <integer name="sentence_separator">46</integer>
+    <integer name="suggestions_count_in_strip">3</integer>
+    <integer name="user_dictionary_max_word_length" translatable="false">48</integer>
+    <string name="abbreviation_unit_milliseconds"><ns1:g id="milliseconds">%s</ns1:g>ms</string>
+    <string name="add">Add</string>
+    <string name="add_style">Add style</string>
+    <string name="added_word"><ns1:g id="word">%s</ns1:g> : Saved</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="advanced_settings_summary">Options for experts</string>
+    <string name="android_spell_checker_settings">Small Keyboard Spell Checker Settings</string>
+    <string name="announce_keyboard_hidden">Keyboard hidden</string>
+    <string name="announce_keyboard_mode">Showing <ns1:g example="email" id="mode">%s</ns1:g> keyboard</string>
+    <string name="app_name">Dictionary Provider</string>
+    <string name="authority" translatable="false">com.themejunky.small.dictionarypack.aosp</string>
+    <string name="auto_cap">Auto-capitalization</string>
+    <string name="auto_cap_summary">Capitalize the first word of each sentence</string>
+    <string name="auto_correction">Auto-correction</string>
+    <string name="auto_correction_summary">Spacebar and punctuation automatically correct mistyped words</string>
+    <string name="auto_correction_threshold_mode_aggressive">Aggressive</string>
+    <string name="auto_correction_threshold_mode_index_aggressive">2</string>
+    <string name="auto_correction_threshold_mode_index_modest">1</string>
+    <string name="auto_correction_threshold_mode_index_off">0</string>
+    <string name="auto_correction_threshold_mode_index_very_aggressive">3</string>
+    <string name="auto_correction_threshold_mode_modest">Modest</string>
+    <string name="auto_correction_threshold_mode_off">Off</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Very aggressive</string>
+    <string name="bigram_prediction">Next-word suggestions</string>
+    <string name="bigram_prediction_summary">Use the previous word in making suggestions</string>
+    <string name="button_default">Default</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_download_dict">Cancel</string>
+    <string name="cannot_connect_to_dict_service">Problem connecting to dictionary service</string>
+    <string name="check_for_updates_now">Refresh</string>
+    <string name="config_default_keyboard_theme_index" translatable="false">2</string>
+    <string name="configure_dictionaries_title">Add-on dictionaries</string>
+    <string name="configure_input_method">Configure input methods</string>
+    <string name="correction_category">Text correction</string>
+    <string name="custom_input_style_already_exists">"The same input style already exists: <ns1:g id="input_style_name">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"Your custom input style needs to be enabled before you start using it. Do you want to enable it now?"</string>
+    <string name="custom_input_styles_title">Custom input styles</string>
+    <string name="default_metadata_uri" translatable="false"/>
+    <string name="default_user_dict_pref_name">User dictionary</string>
+    <string name="delete_dict">Delete</string>
+    <string name="dict_available_notification_description">Press to review and download</string>
+    <string name="dict_available_notification_title">A dictionary is available for <ns1:g example="English" id="language">%1$s</ns1:g></string>
+    <string name="dictionary_available">Dictionary available</string>
+    <string name="dictionary_disabled">Installed, disabled</string>
+    <string name="dictionary_downloading">Currently downloading</string>
+    <string name="dictionary_install_over_metered_network_prompt">Dictionary available</string>
+    <string name="dictionary_installed">Installed</string>
+    <string name="dictionary_pack_client_id" translatable="false">com.themejunky.small.keyboard</string>
+    <string name="dictionary_pack_metadata_uri" translatable="false"/>
+    <string name="dictionary_pack_settings_activity" translatable="false">com.themejunky.small.dictionarypack.DictionarySettingsActivity</string>
+    <string name="dictionary_provider_name">Dictionary Provider</string>
+    <string name="dictionary_service_name">Dictionary Service</string>
+    <string name="dictionary_settings_summary">Settings for dictionaries</string>
+    <string name="dictionary_settings_title">Add-on dictionaries</string>
+    <string name="do_not_download_over_metered">Download over Wi-Fi</string>
+    <string name="download_description">Dictionary update information</string>
+    <string name="download_over_metered">Download now (<ns1:g example="0.7" id="size_in_megabytes">%1$.1f</ns1:g>MB)</string>
+    <string name="edit_personal_dictionary">Personal dictionary</string>
+    <string name="enable">Enable</string>
+    <string name="english_ime_debug_settings">Android keyboard Debug settings</string>
+    <string name="english_ime_input_options">Input options</string>
+    <string name="english_ime_name">Small Keyboard</string>
+    <string name="english_ime_research_log">Research Log Commands</string>
+    <string name="english_ime_settings">Small Keyboard Settings</string>
+    <string name="error">There was an error</string>
+    <string name="general_category">General</string>
+    <string name="gesture_floating_preview_text">Dynamic floating preview</string>
+    <string name="gesture_floating_preview_text_summary">See the suggested word while gesturing</string>
+    <string name="gesture_input">Enable gesture typing</string>
+    <string name="gesture_input_summary">Input a word by sliding through the letters</string>
+    <string name="gesture_preview_trail">Show gesture trail</string>
+    <string name="gesture_typing_category">Gesture typing</string>
+    <string name="has_dictionary">Dictionary available</string>
+    <string name="hint_add_to_dictionary">Touch again to save</string>
+    <string name="include_other_imes_in_language_switch_list">Switch to other input methods</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Language switch key covers other input methods too</string>
+    <string name="install_dict">Install</string>
+    <string name="key_preview_popup_dismiss_default_delay">Default</string>
+    <string name="key_preview_popup_dismiss_delay">Key popup dismiss delay</string>
+    <string name="key_preview_popup_dismiss_no_delay">No delay</string>
+    <string name="keyboard_color_scheme">Color scheme</string>
+    <string name="keyboard_color_scheme_blue">Blue</string>
+    <string name="keyboard_color_scheme_material">Material</string>
+    <string name="keyboard_color_scheme_white">White</string>
+    <string name="keyboard_layout">Keyboard theme</string>
+    <string name="keyboard_layout_set">Layout</string>
+    <string name="keyboard_mode_date">date</string>
+    <string name="keyboard_mode_date_time">date and time</string>
+    <string name="keyboard_mode_email">email</string>
+    <string name="keyboard_mode_im">messaging</string>
+    <string name="keyboard_mode_number">number</string>
+    <string name="keyboard_mode_phone">phone</string>
+    <string name="keyboard_mode_text">text</string>
+    <string name="keyboard_mode_time">time</string>
+    <string name="keyboard_mode_url">URL</string>
+    <string name="keyboard_name_as_inscript">অসমীয়া - Inscript</string>
+    <string name="keyboard_name_as_transliteration">অসমীয়া - প্ৰতিৰূপান্তৰণ</string>
+    <string name="keyboard_name_bn">বাংলা</string>
+    <string name="keyboard_name_bn_avro">বাংলা - Avro</string>
+    <string name="keyboard_name_bn_inscript">বাংলা - Inscript</string>
+    <string name="keyboard_name_bn_probhat">বাংলা - Probhat</string>
+    <string name="keyboard_name_en">English</string>
+    <string name="keyboard_name_gu">ગુજરાતી</string>
+    <string name="keyboard_name_gu_inscript">ગુજરાતી - Inscript</string>
+    <string name="keyboard_name_gu_transliteration">ગુજરાતી - Transliteration</string>
+    <string name="keyboard_name_hi">हिन्दी</string>
+    <string name="keyboard_name_hi_inscript">Devanagari - Inscript</string>
+    <string name="keyboard_name_hi_transliteration">हिन्दी - लिप्यंतरण</string>
+    <string name="keyboard_name_kn">ಕನ್ನಡ</string>
+    <string name="keyboard_name_kn_anysoft_inscript">ಕನ್ನಡ - Inscript Mobile</string>
+    <string name="keyboard_name_kn_compact">ಕನ್ನಡ - Compact</string>
+    <string name="keyboard_name_kn_inscript">ಕನ್ನಡ - Inscript</string>
+    <string name="keyboard_name_kn_transliteration">ಕನ್ನಡ - ಲಿಪ್ಯಂತರಣ</string>
+    <string name="keyboard_name_ks_inscript">کأشُر - Inscript</string>
+    <string name="keyboard_name_ks_transliteration">کأشُر - Transliteration</string>
+    <string name="keyboard_name_ml_compact">മലയാളം - Compact</string>
+    <string name="keyboard_name_ml_inscript">മലയാളം - Inscript</string>
+    <string name="keyboard_name_ml_lalitha">മലയാളം</string>
+    <string name="keyboard_name_ml_transliteration">മലയാളം - ലിപ്യന്തരണം</string>
+    <string name="keyboard_name_mr_transliteration">मराठी - अक्षरांतरण</string>
+    <string name="keyboard_name_my">Burmese - ဗမာ</string>
+    <string name="keyboard_name_ne">नेपाली</string>
+    <string name="keyboard_name_ne_inscript">नेपाली - Inscript</string>
+    <string name="keyboard_name_ne_traditional">नेपाली - Traditional</string>
+    <string name="keyboard_name_ne_transliteration">नेपाली - Transliteration</string>
+    <string name="keyboard_name_or_inscript">ଓଡ଼ିଆ - Inscript</string>
+    <string name="keyboard_name_or_transliteration">ଓଡ଼ିଆ - Transliteration</string>
+    <string name="keyboard_name_pa">ਪੰਜਾਬੀ</string>
+    <string name="keyboard_name_pa_inscript">ਪੰਜਾਬੀ - Inscript</string>
+    <string name="keyboard_name_pa_transliteration">ਪੰਜਾਬੀ - Transliteration</string>
+    <string name="keyboard_name_sa_transliteration">संस्कृत - Transliteration</string>
+    <string name="keyboard_name_si_singlish">සිංහල - Singlish</string>
+    <string name="keyboard_name_ta">தமிழ் </string>
+    <string name="keyboard_name_ta_99">தமிழ் 99</string>
+    <string name="keyboard_name_ta_compact">தமிழ்  - Compact </string>
+    <string name="keyboard_name_ta_inscript">தமிழ்  - Inscript </string>
+    <string name="keyboard_name_ta_transliteration">தமிழ் - எழுத்துப்பெயர்ப்பு</string>
+    <string name="keyboard_name_te">తెలుగు </string>
+    <string name="keyboard_name_te_compact">తెలుగు  - Compact </string>
+    <string name="keyboard_name_te_inscript">తెలుగు  - Inscript </string>
+    <string name="keyboard_name_te_transliteration">తెలుగు - లిప్యంతరీకరణ</string>
+    <string name="keyboard_name_ur_transliteration">اردو - Transliteration</string>
+    <string name="label_done_key">Done</string>
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_pause_key">Pause</string>
+    <string name="label_previous_key">Prev</string>
+    <string name="label_send_key">Send</string>
+    <string name="label_wait_key">Wait</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="last_update">Last updated</string>
+    <string name="layout_gingerbread">Gingerbread</string>
+    <string name="layout_ics">IceCreamSandwich</string>
+    <string name="layout_klp">KeyLimePie</string>
+    <string name="local_metadata_filename" translatable="false">metadata.json</string>
+    <string name="main_dict_description">Main dictionary</string>
+    <string name="main_dictionary">Main dictionary</string>
+    <string name="message_loading">Loading...</string>
+    <string name="message_updating">Checking for updates</string>
+    <string name="misc_category">Other options</string>
+    <string name="no_dictionaries_available">No dictionaries available</string>
+    <string name="not_now">Not now</string>
+    <string name="popup_on_keypress">Popup on keypress</string>
+    <string name="prefs_block_potentially_offensive_summary">Do not suggest potentially offensive words</string>
+    <string name="prefs_block_potentially_offensive_title">Block offensive words</string>
+    <string name="prefs_boost_personalization_dictionary" translatable="false">Boost personalization dictionary</string>
+    <string name="prefs_debug_mode">Debug Mode</string>
+    <string name="prefs_description_log">Help improve this input method editor by automatically sending usage statistics and crash reports</string>
+    <string name="prefs_enable_log">Enable user feedback</string>
+    <string name="prefs_force_non_distinct_multitouch">Force non-distinct multitouch</string>
+    <string name="prefs_key_longpress_timeout_settings">Key long press delay</string>
+    <string name="prefs_keypress_sound_volume_settings">Keypress sound volume</string>
+    <string name="prefs_keypress_vibration_duration_settings">Keypress vibration duration</string>
+    <string name="prefs_read_external_dictionary">Read external dictionary file</string>
+    <string name="prefs_show_suggestions">Show correction suggestions</string>
+    <string name="prefs_show_suggestions_summary">Display suggested words while typing</string>
+    <string name="prefs_suggestion_visibility_default_value">0</string>
+    <string name="prefs_suggestion_visibility_hide_name">Always hide</string>
+    <string name="prefs_suggestion_visibility_hide_value">2</string>
+    <string name="prefs_suggestion_visibility_show_name">Always show</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_name">Show in portrait mode</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_value">1</string>
+    <string name="prefs_suggestion_visibility_show_value">0</string>
+    <string name="prefs_usability_study_mode">Usability study mode</string>
+    <string name="prefs_use_only_personalization_dictionary" translatable="false">Use only personalization dictionary</string>
+    <string name="read_external_dictionary_confirm_install_message">Really install this file for <ns1:g id="locale_name">%s</ns1:g>?</string>
+    <string name="read_external_dictionary_multiple_files_title">Select a dictionary file to install</string>
+    <string name="read_external_dictionary_no_files_message">No dictionary files in the Downloads folder</string>
+    <string name="remove">Remove</string>
+    <string name="research_account_type" translatable="false"/>
+    <string name="research_allowed_account_domain" translatable="false"/>
+    <string name="research_do_not_log_this_session" translatable="false">Suspend logging</string>
+    <string name="research_enable_session_logging" translatable="false">Enable logging</string>
+    <string name="research_feedback_cancel" translatable="false">Cancel</string>
+    <string name="research_feedback_demonstration_instructions" translatable="false">Please demonstrate the issue you are writing about.\n\nWhen finished, select the \"Bug?\" button again."</string>
+    <string name="research_feedback_dialog_title" translatable="false">Send feedback</string>
+    <string name="research_feedback_empty_feedback_error_message" translatable="false">The feedback field must not be empty.</string>
+    <string name="research_feedback_hint" translatable="false">Enter your feedback here.</string>
+    <string name="research_feedback_include_account_name_label" translatable="false">Include account name</string>
+    <string name="research_feedback_include_history_label" translatable="false">Include session history</string>
+    <string name="research_feedback_include_recording_label" translatable="false">Include recorded demonstration</string>
+    <string name="research_feedback_menu_option" translatable="false">Send feedback</string>
+    <string name="research_feedback_recording_failure" translatable="false">Recording cancelled due to timeout</string>
+    <string name="research_feedback_send" translatable="false">Send</string>
+    <string name="research_log_replayer_name" translatable="false">Research Replayer Service</string>
+    <string name="research_log_uploader_name" translatable="false">Research Uploader Service</string>
+    <string name="research_logger_upload_url" translatable="false"/>
+    <string name="research_logging_disabled" translatable="false">Logging Disabled</string>
+    <string name="research_notify_logging_suspended" translatable="false">Logging temporarily suspended.  To disable permanently, go to Android Keyboard Settings</string>
+    <string name="research_notify_session_log_deleting" translatable="false">Deleting session log</string>
+    <string name="research_notify_session_log_not_deleted" translatable="false">Session log NOT deleted</string>
+    <string name="research_notify_session_logging_enabled" translatable="false">Session logging enabled</string>
+    <string name="research_please_exit_feedback_form" translatable="false">Please exit the feedback dialog to access the research log menu</string>
+    <string name="research_splash_content" translatable="false"/>
+    <string name="research_splash_title" translatable="false">Warning</string>
+    <string name="save">Save</string>
+    <string name="select_language">Input languages</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="settings_system_default">System default</string>
+    <string name="settings_warning_researcher_mode">Attention!  You are using the special keyboard for research purposes.</string>
+    <string name="setup_finish_action">Finished</string>
+    <string name="setup_next_action">Next step</string>
+    <string name="setup_start_action">Get started</string>
+    <string name="setup_step1_action">Enable in Settings</string>
+    <string name="setup_step1_bullet" translatable="false">1</string>
+    <string name="setup_step1_finished_instruction">"<ns1:g id="application_name">%s</ns1:g> is already enabled in your Language &amp; input settings, so this step is done. On to the next one!"</string>
+    <string name="setup_step1_instruction">"Please check \"<ns1:g id="application_name">%s</ns1:g>\" in your Language &amp; input settings. This will authorize it to run on your device."</string>
+    <string name="setup_step1_title">"Enable <ns1:g id="application_name">%s</ns1:g>"</string>
+    <string name="setup_step2_action">Switch input methods</string>
+    <string name="setup_step2_bullet" translatable="false">2</string>
+    <string name="setup_step2_instruction">"Next, select \"<ns1:g id="application_name">%s</ns1:g>\" as your active text-input method."</string>
+    <string name="setup_step2_title">"Switch to <ns1:g id="application_name">%s</ns1:g>"</string>
+    <string name="setup_step3_action">Configure additional languages</string>
+    <string name="setup_step3_bullet" translatable="false">3</string>
+    <string name="setup_step3_instruction">Now you can type in all your favorite apps with <ns1:g id="application_name">%s</ns1:g>.</string>
+    <string name="setup_step3_title">"Congratulations, you're all set!"</string>
+    <string name="setup_steps_title">"Setting up <ns1:g id="application_name">%s</ns1:g>"</string>
+    <string name="setup_welcome_additional_description">"Welcome to <ns1:g id="application_name">%s</ns1:g>"</string>
+    <string name="setup_welcome_title">"नमस्ते வணக்கம் നമസ്കാരം నమస్కారం সাগতাম"</string>
+    <string name="should_download_over_metered_prompt">The selected language on your mobile device has an available dictionary.&lt;br/>
+We recommend &lt;b>downloading&lt;/b> the <ns1:g example="English" id="language">%1$s</ns1:g> dictionary to improve your typing experience.&lt;br/>
+&lt;br/>
+The download could take a minute or two over 3G. Charges may apply if you don\'t have an &lt;b>unlimited data plan&lt;/b>.&lt;br/>
+If you are not sure which data plan you have, we recommend finding a Wi-Fi connection to start the download automatically.&lt;br/>
+&lt;br/>
+Tip: You can download and remove dictionaries by going to &lt;b>Language &amp; input&lt;/b> in the &lt;b>Settings&lt;/b> menu of your mobile device.</string>
+    <string name="show_language_switch_key">Language switch key</string>
+    <string name="show_language_switch_key_summary">Show when multiple input languages are enabled</string>
+    <string name="show_setup_wizard_icon">Show app icon</string>
+    <string name="show_setup_wizard_icon_summary">Display application icon in the launcher</string>
+    <string name="sliding_key_input_preview">Show slide indicator</string>
+    <string name="sliding_key_input_preview_summary">Display visual cue while sliding from Shift or Symbol keys</string>
+    <string name="sound_on_keypress">Sound on keypress</string>
+    <string name="spell_checker_service_name">Small Keyboard Spell Checker</string>
+    <string name="spellchecker_recommended_threshold_value" translatable="false">0.11</string>
+    <string name="spoken_auto_correct"><ns1:g example="Space" id="key">%1$s</ns1:g> corrects <ns1:g id="original_word">%2$s</ns1:g> to <ns1:g id="corrected">%3$s</ns1:g></string>
+    <string name="spoken_auto_correct_obscured"><ns1:g example="Space" id="key">%1$s</ns1:g> performs auto-correction</string>
+    <string name="spoken_current_text_is">Current text is "%s"</string>
+    <string name="spoken_description_action_next">Next</string>
+    <string name="spoken_description_action_previous">Previous</string>
+    <string name="spoken_description_caps_lock">Caps lock on (tap to disable)</string>
+    <string name="spoken_description_delete">Delete</string>
+    <string name="spoken_description_dot">Dot</string>
+    <string name="spoken_description_language_switch">Switch language</string>
+    <string name="spoken_description_mic">Voice input</string>
+    <string name="spoken_description_mode_alpha">Letters mode</string>
+    <string name="spoken_description_mode_phone">Phone mode</string>
+    <string name="spoken_description_mode_phone_shift">Phone symbols mode</string>
+    <string name="spoken_description_mode_symbol">Symbols mode</string>
+    <string name="spoken_description_return">Return</string>
+    <string name="spoken_description_search">Search</string>
+    <string name="spoken_description_settings">Settings</string>
+    <string name="spoken_description_shift">Shift</string>
+    <string name="spoken_description_shift_shifted">Shift on (tap to disable)</string>
+    <string name="spoken_description_shiftmode_locked">Caps lock enabled</string>
+    <string name="spoken_description_shiftmode_off">Shift disabled</string>
+    <string name="spoken_description_shiftmode_on">Shift enabled</string>
+    <string name="spoken_description_smiley">Smiley face</string>
+    <string name="spoken_description_space">Space</string>
+    <string name="spoken_description_tab">Tab</string>
+    <string name="spoken_description_to_alpha">Letters</string>
+    <string name="spoken_description_to_numeric">Numbers</string>
+    <string name="spoken_description_to_symbol">Symbols</string>
+    <string name="spoken_description_unknown">Key code %d</string>
+    <string name="spoken_no_text_entered">No text entered</string>
+    <string name="spoken_use_headphones">Plug in a headset to hear password keys spoken aloud.</string>
+    <string name="subtype_bulgarian_bds">%s (BDS)</string>
+    <string name="subtype_emoji">Emoji</string>
+    <string name="subtype_en_GB">English (UK)</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="subtype_es_US">Spanish (US)</string>
+    <string name="subtype_generic">%s</string>
+    <string name="subtype_generic_qwerty">%s (QWERTY)</string>
+    <string name="subtype_locale">Language</string>
+    <string name="subtype_nepali_traditional"><ns1:g id="language">%s</ns1:g> (Traditional)</string>
+    <string name="subtype_no_language">No language (Alphabet)</string>
+    <string name="subtype_no_language_azerty">Alphabet (AZERTY)</string>
+    <string name="subtype_no_language_colemak">Alphabet (Colemak)</string>
+    <string name="subtype_no_language_dvorak">Alphabet (Dvorak)</string>
+    <string name="subtype_no_language_pcqwerty">Alphabet (PC)</string>
+    <string name="subtype_no_language_qwerty">Alphabet (QWERTY)</string>
+    <string name="subtype_no_language_qwertz">Alphabet (QWERTZ)</string>
+    <string name="subtype_with_layout_en_GB">English (UK) (<ns1:g id="layout">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_en_US">English (US) (<ns1:g id="layout">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_es_US">Spanish (US) (<ns1:g id="layout">%s</ns1:g>)</string>
+    <string name="suggested_punctuations">!,?,\\,,:,;,\",(,),\',-,/,@,_</string>
+    <string name="symbols_followed_by_space">.,;:!?)]}&amp;</string>
+    <string name="symbols_preceded_by_space">([{&amp;</string>
+    <string name="symbols_word_connectors">\'-</string>
+    <string name="symbols_word_separators">"	 \n"()[]{}*&amp;&lt;>+=|.,;:!?/_\"</string>
+    <string name="toast_downloading_suggestions">Downloading: suggestions for <ns1:g example="English" id="language">%1$s</ns1:g> will be ready soon.</string>
+    <string name="use_contacts_dict">Suggest Contact names</string>
+    <string name="use_contacts_dict_summary">Use names from Contacts for suggestions and corrections</string>
+    <string name="use_contacts_for_spellchecking_option_summary">Spell checker uses entries from your contact list</string>
+    <string name="use_contacts_for_spellchecking_option_title">Look up contact names</string>
+    <string name="use_double_space_period">Double-space period</string>
+    <string name="use_double_space_period_summary">Double tap on spacebar inserts a period followed by a space</string>
+    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="user_dict_settings_add_dialog_confirm">OK</string>
+    <string name="user_dict_settings_add_dialog_less_options">Less options</string>
+    <string name="user_dict_settings_add_dialog_more_options">More options</string>
+    <string name="user_dict_settings_add_dialog_title">Add to dictionary</string>
+    <string name="user_dict_settings_add_locale_option_name">Language:</string>
+    <string name="user_dict_settings_add_menu_title">Add</string>
+    <string name="user_dict_settings_add_screen_title">Phrase</string>
+    <string name="user_dict_settings_add_shortcut_hint">Optional shortcut</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Shortcut:</string>
+    <string name="user_dict_settings_add_word_hint">Type a word</string>
+    <string name="user_dict_settings_add_word_option_name">Word:</string>
+    <string name="user_dict_settings_all_languages">For all languages</string>
+    <string name="user_dict_settings_context_menu_delete_title">Delete</string>
+    <string name="user_dict_settings_context_menu_edit_title">Edit</string>
+    <string name="user_dict_settings_delete">Delete</string>
+    <string name="user_dict_settings_edit_dialog_title">Edit word</string>
+    <string name="user_dict_settings_empty_text">You don\'t have any words in the user dictionary. Add a word by touching the Add (+) button.</string>
+    <string name="user_dict_settings_more_languages">More languages…</string>
+    <string name="user_dict_settings_summary" translatable="false">""</string>
+    <string name="user_dictionaries">User dictionaries</string>
+    <string name="version_text">Version <ns1:g example="1.0.1864.643521" id="version_number">%1$s</ns1:g></string>
+    <string name="vibrate_on_keypress">Vibrate on keypress</string>
+    <string name="voice_input">Voice input key</string>
+    <string name="voice_input_modes_main_keyboard">On main keyboard</string>
+    <string name="voice_input_modes_off">Off</string>
+    <string name="voice_input_modes_summary_main_keyboard">Mic on main keyboard</string>
+    <string name="voice_input_modes_summary_off">Voice input is disabled</string>
+    <string name="voice_input_modes_summary_symbols_keyboard">Mic on symbols keyboard</string>
+    <string name="voice_input_modes_symbols_keyboard">On symbols keyboard</string>
+    <string name="voice_mode_main">0</string>
+    <string name="voice_mode_off">2</string>
+    <string name="voice_mode_symbols">1</string>
+    <style name="EmojiPalettesView" parent="KeyboardView">
+        <item name="emojiTabLabelColor">@color/emoji_tab_label_color_holo</item>
+    </style>
+    <style name="EmojiPalettesView.GB" parent="KeyboardView.GB">
+        <item name="keyBackground">@drawable/btn_keyboard_key_functional_gb</item>
+        <item name="emojiTabLabelColor">@color/emoji_tab_label_color_gb</item>
+    </style>
+    <style name="EmojiPalettesView.ICS" parent="KeyboardView.ICS">
+        <item name="keyBackgroundEmojiFunctional">@drawable/btn_keyboard_key_functional_ics</item>
+        <item name="emojiTabLabelColor">@color/emoji_tab_label_color_holo</item>
+    </style>
+    <style name="EmojiPalettesView.KLP" parent="KeyboardView.KLP">
+        <item name="keyBackgroundEmojiFunctional">@drawable/btn_keyboard_key_functional_klp</item>
+        <item name="emojiTabLabelColor">@color/emoji_tab_label_color_holo</item>
+    </style>
+    <style name="EmojiPalettesView.LXX_Dark" parent="@style/MainKeyboardView.LXX_Dark">
+        <!--<item name="iconEmojiRecentsTab">@drawable/ic_emoji_recents_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory1Tab">@drawable/ic_emoji_people_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory2Tab">@drawable/ic_emoji_objects_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory3Tab">@drawable/ic_emoji_nature_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory4Tab">@drawable/ic_emoji_places_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory5Tab">@drawable/ic_emoji_symbols_holo_dark</item>-->
+        <!--<item name="iconEmojiCategory6Tab">@drawable/ic_emoji_emoticons_holo_dark</item>-->
+        <item name="keyBackgroundEmojiFunctional">@drawable/btn_keyboard_key_functional_klp</item>
+        <item name="emojiTabLabelColor">@color/emoji_tab_label_color_holo</item>
+    </style>
+    <style name="Keyboard">
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_default</item>
+        <item name="rowHeight">25%p</item>
+        <item name="moreKeysTemplate">@xml/kbd_more_keys_keyboard_template</item>
+        <item name="keyboardLeftPadding">@fraction/keyboard_left_padding</item>
+        <item name="keyboardRightPadding">@fraction/keyboard_right_padding</item>
+        <item name="maxMoreKeysColumn">@integer/config_max_more_keys_column</item>
+    </style>
+    <style name="Keyboard.GB" parent="Keyboard">
+        <!-- This should be aligned with KeyboardSwitcher.KEYBOARD_THEMES[] -->
+        <item name="themeId">1</item>
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_gb</item>
+        <item name="keyboardTopPadding">@fraction/keyboard_top_padding_gb</item>
+        <item name="keyboardBottomPadding">@fraction/keyboard_bottom_padding_gb</item>
+        <item name="horizontalGap">@fraction/key_horizontal_gap_gb</item>
+        <item name="verticalGap">@fraction/key_bottom_gap_gb</item>
+    </style>
+    <style name="Keyboard.ICS" parent="Keyboard">
+        <!-- This should be aligned with KeyboardSwitcher.KEYBOARD_THEMES[] -->
+        <item name="themeId">2</item>
+        <item name="keyboardTopPadding">@fraction/keyboard_top_padding_holo</item>
+        <item name="keyboardBottomPadding">@fraction/keyboard_bottom_padding_holo</item>
+        <item name="horizontalGap">@fraction/key_horizontal_gap_holo</item>
+        <item name="verticalGap">@fraction/key_bottom_gap_holo</item>
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_holo</item>
+    </style>
+    <style name="Keyboard.KLP" parent="Keyboard">
+        <!-- This should be aligned with KeyboardSwitcher.KEYBOARD_THEMES[] -->
+        <item name="themeId">0</item>
+        <item name="keyboardTopPadding">@fraction/keyboard_top_padding_holo</item>
+        <item name="keyboardBottomPadding">@fraction/keyboard_bottom_padding_holo</item>
+        <item name="horizontalGap">@fraction/key_horizontal_gap_holo</item>
+        <item name="verticalGap">@fraction/key_bottom_gap_holo</item>
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_holo</item>
+    </style>
+    <style name="Keyboard.LXX_Dark" parent="@style/Keyboard">
+        <item name="themeId">3</item>
+        <item name="touchPositionCorrectionData">@array/touch_position_correction_data_holo</item>
+        <item name="keyboardTopPadding">@fraction/keyboard_top_padding_holo</item>
+        <item name="keyboardBottomPadding">@fraction/keyboard_bottom_padding_holo</item>
+        <item name="horizontalGap">@fraction/key_horizontal_gap_holo</item>
+        <item name="verticalGap">@fraction/key_bottom_gap_holo</item>
+    </style>
+    <style name="KeyboardIcons"/>
+    <style name="KeyboardIcons.GB">
+        <!-- Keyboard icons -->
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_holo_dark</item>
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_holo_dark</item>
+        <item name="iconSettingsKey">@drawable/sym_keyboard_settings_holo_dark</item>
+        <item name="iconSpaceKey">@drawable/sym_keyboard_space_holo_dark</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_holo_dark</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_holo_dark</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_holo_dark</item>
+        <item name="iconShortcutKey">@drawable/sym_keyboard_mic_holo_dark</item>
+        <item name="iconShortcutForLabel">@drawable/sym_keyboard_label_mic_holo_dark</item>
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_holo_dark</item>
+        <!-- TODO: Needs non-holo disabled shortcut icon drawable -->
+        <item name="iconShortcutKeyDisabled">@drawable/sym_keyboard_voice_off_holo_dark</item>
+        <item name="iconTabKeyPreview">@drawable/sym_keyboard_feedback_tab</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_dark</item>
+        <!-- TODO: Needs dedicated black theme ZWNJ and ZWJ icons -->
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_holo_dark</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj_holo_dark</item>
+        <item name="iconEmojiKey">@drawable/sym_keyboard_smiley_holo_dark</item>
+    </style>
+    <style name="KeyboardIcons.Holo">
+        <!-- Keyboard icons -->
+        <!-- TODO: The following holo icon for phone (drawable-hdpi and drawable-xhdpi) are missing.
+             sym_keyboard_123_mic_holo
+             -->
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_holo_dark</item>
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_holo_dark</item>
+        <item name="iconSettingsKey">@drawable/sym_keyboard_settings_holo_dark</item>
+        <item name="iconSpaceKey">@null</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_holo_dark</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_holo_dark</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_holo_dark</item>
+        <item name="iconShortcutKey">@drawable/sym_keyboard_voice_holo_dark</item>
+        <item name="iconShortcutForLabel">@drawable/sym_keyboard_label_mic_holo_dark</item>
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space_holo_dark</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_holo_dark</item>
+        <item name="iconShortcutKeyDisabled">@drawable/sym_keyboard_voice_off_holo_dark</item>
+        <item name="iconTabKeyPreview">@drawable/sym_keyboard_feedback_tab</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_dark</item>
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_holo_dark</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj_holo_dark</item>
+        <item name="iconEmojiKey">@drawable/sym_keyboard_smiley_holo_dark</item>
+    </style>
+    <style name="KeyboardIcons.LXX_Dark" parent="@style/KeyboardIcons">
+        <item name="iconShiftKey">@drawable/sym_keyboard_shift_lxx_dark</item>
+        <item name="iconDeleteKey">@drawable/sym_keyboard_delete_lxx_dark</item>
+        <item name="iconSettingsKey">@drawable/sym_keyboard_settings_lxx_dark</item>
+        <item name="iconSpaceKey">@drawable/sym_keyboard_spacebar_lxx_dark</item>
+        <item name="iconEnterKey">@drawable/sym_keyboard_return_lxx_dark</item>
+        <item name="iconGoKey">@drawable/sym_keyboard_go_lxx_dark</item>
+        <item name="iconSearchKey">@drawable/sym_keyboard_search_lxx_dark</item>
+        <item name="iconSendKey">@drawable/sym_keyboard_send_lxx_dark</item>
+        <item name="iconNextKey">@drawable/sym_keyboard_next_lxx_dark</item>
+        <item name="iconDoneKey">@drawable/sym_keyboard_done_lxx_dark</item>
+        <item name="iconPreviousKey">@drawable/sym_keyboard_previous_lxx_dark</item>
+        <item name="iconTabKey">@drawable/sym_keyboard_tab_holo_dark</item>
+        <item name="iconShortcutKey">@drawable/sym_keyboard_voice_lxx_dark</item>
+        <item name="iconSpaceKeyForNumberLayout">@drawable/sym_keyboard_space_holo_dark</item>
+        <item name="iconShiftKeyShifted">@drawable/sym_keyboard_shift_locked_lxx_dark</item>
+        <item name="iconShortcutKeyDisabled">@drawable/sym_keyboard_voice_off_lxx_dark</item>
+        <item name="iconTabKeyPreview">@drawable/sym_keyboard_feedback_tab</item>
+        <item name="iconLanguageSwitchKey">@drawable/sym_keyboard_language_switch_lxx_dark</item>
+        <item name="iconZwnjKey">@drawable/sym_keyboard_zwnj_holo_dark</item>
+        <item name="iconZwjKey">@drawable/sym_keyboard_zwj_holo_dark</item>
+        <item name="iconEmojiKey">@drawable/sym_keyboard_smiley_lxx_dark</item>
+    </style>
+    <style name="KeyboardTheme.GB" parent="KeyboardIcons.GB">
+        <item name="keyboardStyle">@style/Keyboard.GB</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.GB</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.GB</item>
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.GB</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.GB</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.GB</item>
+        <item name="moreKeysKeyboardContainerStyle">@style/MoreKeysKeyboardContainer.GB</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.GB</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.GB</item>
+    </style>
+    <style name="KeyboardTheme.ICS" parent="KeyboardIcons.Holo">
+        <item name="keyboardStyle">@style/Keyboard.ICS</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.ICS</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.ICS</item>
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.ICS</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.ICS</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.ICS</item>
+        <item name="moreKeysKeyboardContainerStyle">@style/MoreKeysKeyboardContainer.ICS</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.ICS</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.ICS</item>
+    </style>
+    <style name="KeyboardTheme.KLP" parent="KeyboardIcons.Holo">
+        <item name="keyboardStyle">@style/Keyboard.KLP</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.KLP</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.KLP</item>
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.KLP</item>
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.KLP</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.KLP</item>
+        <item name="moreKeysKeyboardContainerStyle">@style/MoreKeysKeyboardContainer.KLP</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.KLP</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.KLP</item>
+    </style>
+    <style name="KeyboardTheme.LXX_Dark" parent="@style/KeyboardIcons.LXX_Dark">
+        <item name="keyboardStyle">@style/Keyboard.LXX_Dark</item>
+        <item name="keyboardViewStyle">@style/KeyboardView.LXX_Dark</item>
+        <item name="mainKeyboardViewStyle">@style/MainKeyboardView.LXX_Dark</item>
+        <!--<item name="keyPreviewTextViewStyle">@style/KeyPreviewTextView.LXX_Dark</item>-->
+        <item name="emojiPalettesViewStyle">@style/EmojiPalettesView.LXX_Dark</item>
+        <!--<item name="emojiTabWidgetStyle">@style/EmojiTabWidget.LXX_Dark</item>-->
+        <!--<item name="emojiCategoryPageIndicatorViewStyle">@style/EmojiCategoryPageIndicatorView.LXX_Dark</item>-->
+        <item name="moreKeysKeyboardStyle">@style/MoreKeysKeyboard.LXX_Dark</item>
+        <item name="moreKeysKeyboardViewStyle">@style/MoreKeysKeyboardView.LXX_Dark</item>
+        <item name="suggestionStripViewStyle">@style/SuggestionStripView.LXX_Dark</item>
+        <item name="suggestionWordStyle">@style/SuggestionWord.LXX_Dark</item>
+    </style>
+    <style name="KeyboardView">
+        <item name="keyBackground">@drawable/btn_keyboard_key_klp</item>
+        <item name="keyLetterSize">@fraction/key_letter_ratio</item>
+        <item name="keyLargeLetterRatio">@fraction/key_large_letter_ratio</item>
+        <item name="keyLabelSize">@fraction/key_label_ratio</item>
+        <item name="keyLargeLabelRatio">@fraction/key_large_label_ratio</item>
+        <item name="keyHintLetterRatio">@fraction/key_hint_letter_ratio</item>
+        <item name="keyHintLabelRatio">@fraction/key_hint_label_ratio</item>
+        <item name="keyShiftedLetterHintRatio">@fraction/key_uppercase_letter_ratio</item>
+        <item name="keyTypeface">normal</item>
+        <item name="keyLabelHorizontalPadding">@dimen/key_label_horizontal_padding</item>
+        <item name="keyHintLetterPadding">@dimen/key_hint_letter_padding</item>
+        <item name="keyPopupHintLetterPadding">@dimen/key_popup_hint_letter_padding</item>
+        <item name="keyShiftedLetterHintPadding">@dimen/key_uppercase_letter_padding</item>
+        <item name="keyPreviewTextRatio">@fraction/key_preview_text_ratio</item>
+        <item name="verticalCorrection">@dimen/keyboard_vertical_correction</item>
+        <item name="backgroundDimAlpha">128</item>
+        <item name="gestureFloatingPreviewTextSize">@dimen/gesture_floating_preview_text_size</item>
+        <item name="gestureFloatingPreviewTextOffset">@dimen/gesture_floating_preview_text_offset</item>
+        <item name="gestureFloatingPreviewHorizontalPadding">@dimen/gesture_floating_preview_horizontal_padding</item>
+        <item name="gestureFloatingPreviewVerticalPadding">@dimen/gesture_floating_preview_vertical_padding</item>
+        <item name="gestureFloatingPreviewRoundRadius">@dimen/gesture_floating_preview_round_radius</item>
+        <item name="gestureTrailMinSamplingDistance">@dimen/gesture_trail_min_sampling_distance</item>
+        <item name="gestureTrailMaxInterpolationAngularThreshold">@integer/gesture_trail_max_interpolation_angular_threshold</item>
+        <item name="gestureTrailMaxInterpolationDistanceThreshold">@dimen/gesture_trail_max_interpolation_distance_threshold</item>
+        <item name="gestureTrailMaxInterpolationSegments">@integer/gesture_trail_max_interpolation_segments</item>
+        <item name="gestureTrailFadeoutStartDelay">@integer/config_gesture_trail_fadeout_start_delay</item>
+        <item name="gestureTrailFadeoutDuration">@integer/config_gesture_trail_fadeout_duration</item>
+        <item name="gestureTrailUpdateInterval">@integer/config_gesture_trail_update_interval</item>
+        <item name="gestureTrailStartWidth">@dimen/gesture_trail_start_width</item>
+        <item name="gestureTrailEndWidth">@dimen/gesture_trail_end_width</item>
+        <item name="gestureTrailBodyRatio">@integer/gesture_trail_body_ratio</item>
+        <item name="gestureTrailShadowRatio">@integer/gesture_trail_shadow_ratio</item>
+        <!-- Common attributes of MainKeyboardView -->
+        <item name="keyHysteresisDistance">@dimen/config_key_hysteresis_distance</item>
+        <item name="keyHysteresisDistanceForSlidingModifier">@dimen/config_key_hysteresis_distance_for_sliding_modifier</item>
+        <item name="touchNoiseThresholdTime">@integer/config_touch_noise_threshold_time</item>
+        <item name="touchNoiseThresholdDistance">@dimen/config_touch_noise_threshold_distance</item>
+        <item name="slidingKeyInputEnable">@bool/config_sliding_key_input_enabled</item>
+        <item name="slidingKeyInputPreviewWidth">@dimen/config_sliding_key_input_preview_width</item>
+        <item name="slidingKeyInputPreviewBodyRatio">@integer/config_sliding_key_input_preview_body_ratio</item>
+        <item name="slidingKeyInputPreviewShadowRatio">@integer/config_sliding_key_input_preview_shadow_ratio</item>
+        <item name="keyRepeatStartTimeout">@integer/config_key_repeat_start_timeout</item>
+        <item name="keyRepeatInterval">@integer/config_key_repeat_interval</item>
+        <item name="longPressShiftLockTimeout">@integer/config_longpress_shift_lock_timeout</item>
+        <item name="ignoreAltCodeKeyTimeout">@integer/config_ignore_alt_code_key_timeout</item>
+        <item name="keyPreviewHeight">@dimen/key_preview_height</item>
+        <item name="keyPreviewLingerTimeout">@integer/config_key_preview_linger_timeout</item>
+        <item name="moreKeysKeyboardLayout">@layout/more_keys_keyboard</item>
+        <item name="showMoreKeysKeyboardAtTouchedPoint">@bool/config_show_more_keys_keyboard_at_touched_point</item>
+        <item name="spacebarTextRatio">@fraction/spacebar_text_ratio</item>
+        <item name="languageOnSpacebarFinalAlpha">@integer/config_language_on_spacebar_final_alpha</item>
+        <item name="languageOnSpacebarFadeoutAnimator">@anim/language_on_spacebar_fadeout</item>
+        <!-- Remove animations for now because it could drain a non-negligible amount of battery while typing.
+        <item name="altCodeKeyWhileTypingFadeoutAnimator">@anim/alt_code_key_while_typing_fadeout</item>
+        <item name="altCodeKeyWhileTypingFadeinAnimator">@anim/alt_code_key_while_typing_fadein</item>
+        -->
+        <!-- Common attributes of MainKeyboardView for gesture typing detection and recognition -->
+        <item name="gestureFloatingPreviewTextLingerTimeout">@integer/config_gesture_floating_preview_text_linger_timeout</item>
+        <item name="gestureStaticTimeThresholdAfterFastTyping">@integer/config_gesture_static_time_threshold_after_fast_typing</item>
+        <item name="gestureDetectFastMoveSpeedThreshold">@fraction/config_gesture_detect_fast_move_speed_threshold</item>
+        <item name="gestureDynamicThresholdDecayDuration">@integer/config_gesture_dynamic_threshold_decay_duration</item>
+        <item name="gestureDynamicTimeThresholdFrom">@integer/config_gesture_dynamic_time_threshold_from</item>
+        <item name="gestureDynamicTimeThresholdTo">@integer/config_gesture_dynamic_time_threshold_to</item>
+        <item name="gestureDynamicDistanceThresholdFrom">@fraction/config_gesture_dynamic_distance_threshold_from</item>
+        <item name="gestureDynamicDistanceThresholdTo">@fraction/config_gesture_dynamic_distance_threshold_to</item>
+        <item name="gestureSamplingMinimumDistance">@fraction/config_gesture_sampling_minimum_distance</item>
+        <item name="gestureRecognitionMinimumTime">@integer/config_gesture_recognition_minimum_time</item>
+        <item name="gestureRecognitionUpdateTime">@integer/config_gesture_recognition_update_time</item>
+        <item name="gestureRecognitionSpeedThreshold">@fraction/config_gesture_recognition_speed_threshold</item>
+        <item name="suppressKeyPreviewAfterBatchInputDuration">@integer/config_suppress_key_preview_after_batch_input_duration</item>
+    </style>
+    <style name="KeyboardView.GB" parent="KeyboardView">
+        <item name="android:background">@drawable/keyboard_background_gb</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_gb</item>
+        <item name="keyTypeface">bold</item>
+        <item name="keyTextColor">@color/key_text_color_gb</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactivated_color_gb</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_gb</item>
+        <item name="keyHintLabelColor">@color/key_hint_label_color_gb</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_shifted_letter_hint_inactivated_color_gb</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_shifted_letter_hint_activated_color_gb</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_gb</item>
+        <item name="keyTextShadowColor">@color/key_text_shadow_color_gb</item>
+        <item name="keyTextShadowRadius">2.75</item>
+    </style>
+    <style name="KeyboardView.ICS" parent="KeyboardView">
+        <item name="android:background">@drawable/keyboard_background_holo</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_ics</item>
+        <item name="keyTypeface">bold</item>
+        <item name="keyTextColor">@color/key_text_color_holo</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactivated_color_holo</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_holo</item>
+        <item name="keyHintLabelColor">@color/key_hint_label_color_holo</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_shifted_letter_hint_inactivated_color_holo</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_shifted_letter_hint_activated_color_holo</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_holo</item>
+        <item name="keyTextShadowColor">@color/key_text_shadow_color_holo</item>
+        <item name="keyTextShadowRadius">0.0</item>
+    </style>
+    <style name="KeyboardView.KLP" parent="KeyboardView">
+        <item name="android:background">@drawable/keyboard_background_holo</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_klp</item>
+        <item name="keyTypeface">bold</item>
+        <item name="keyTextColor">@color/key_text_color_holo</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactivated_color_holo</item>
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_holo</item>
+        <item name="keyHintLabelColor">@color/key_hint_label_color_holo</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_shifted_letter_hint_inactivated_color_holo</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_shifted_letter_hint_activated_color_holo</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_holo</item>
+        <item name="keyTextShadowColor">@color/key_text_shadow_color_holo</item>
+        <item name="keyTextShadowRadius">0.0</item>
+    </style>
+    <style name="KeyboardView.LXX_Dark" parent="@style/KeyboardView">
+        <item name="android:background">@color/keyboard_background_lxx_dark</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_lxx_dark</item>
+        <!--<item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_lxx_dark</item>-->
+        <!--<item name="spacebarBackground">@drawable/btn_keyboard_spacebar_lxx_dark</item>-->
+        <!--<item name="spacebarIconWidthRatio">0.9</item>-->
+        <item name="keyTextShadowRadius">-1.0</item>
+        <item name="keyTypeface">normal</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyTextInactivatedColor">@color/key_text_inactive_color_lxx_dark</item>
+        <!--<item name="functionalTextColor">@color/key_hint_letter_color_lxx_dark</item>-->
+        <item name="keyHintLetterColor">@color/key_hint_letter_color_lxx_dark</item>
+        <item name="keyHintLabelColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_dark</item>
+    </style>
+    <style name="MainKeyboardView" parent="KeyboardView"/>
+    <style name="MainKeyboardView.GB" parent="KeyboardView.GB">
+        <item name="keyPreviewLayout">@layout/key_preview_gb</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset_gb</item>
+        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_gb</item>
+        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_gb</item>
+        <item name="gestureTrailColor">@color/highlight_color_gb</item>
+        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_gb</item>
+        <item name="autoCorrectionSpacebarLedEnabled">true</item>
+        <item name="autoCorrectionSpacebarLedIcon">@drawable/sym_keyboard_space_led_gb</item>
+        <item name="spacebarTextColor">@color/spacebar_text_color_gb</item>
+        <item name="spacebarTextShadowColor">@color/spacebar_text_shadow_color_gb</item>
+    </style>
+    <style name="MainKeyboardView.ICS" parent="KeyboardView.ICS">
+        <item name="keyPreviewLayout">@layout/key_preview_ics</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset_holo</item>
+        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_ics</item>
+        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_holo</item>
+        <item name="gestureTrailColor">@color/highlight_color_ics</item>
+        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_ics</item>
+        <item name="autoCorrectionSpacebarLedEnabled">false</item>
+        <item name="autoCorrectionSpacebarLedIcon">@drawable/sym_keyboard_space_led_holo</item>
+        <item name="spacebarTextColor">@color/spacebar_text_color_holo</item>
+        <item name="spacebarTextShadowColor">@color/spacebar_text_shadow_color_holo</item>
+    </style>
+    <style name="MainKeyboardView.KLP" parent="KeyboardView.KLP">
+        <item name="keyPreviewLayout">@layout/key_preview_klp</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset_holo</item>
+        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_klp</item>
+        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_holo</item>
+        <item name="gestureTrailColor">@color/highlight_color_klp</item>
+        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_klp</item>
+        <item name="autoCorrectionSpacebarLedEnabled">false</item>
+        <item name="autoCorrectionSpacebarLedIcon">@drawable/sym_keyboard_space_led_holo</item>
+        <item name="spacebarTextColor">@color/spacebar_text_color_holo</item>
+        <item name="spacebarTextShadowColor">@color/spacebar_text_shadow_color_holo</item>
+    </style>
+    <style name="MainKeyboardView.LXX_Dark" parent="@style/KeyboardView.LXX_Dark">
+        <item name="spacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
+        <!--<item name="SpacebarTextShadowRadius">-1.0</item>-->
+        <item name="slidingKeyInputPreviewColor">@color/highlight_translucent_color_lxx_dark</item>
+        <item name="keyPreviewOffset">@dimen/key_preview_offset_holo</item>
+        <item name="gestureTrailColor">@color/highlight_color_lxx_dark</item>
+        <item name="gestureFloatingPreviewTextColor">@color/highlight_color_lxx_dark</item>
+        <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_lxx_dark</item>
+    </style>
+    <style name="MoreKeysKeyboard"/>
+    <style name="MoreKeysKeyboard.GB" parent="Keyboard.GB">
+        <item name="keyboardTopPadding">0%p</item>
+        <item name="keyboardBottomPadding">0%p</item>
+        <item name="horizontalGap">0%p</item>
+        <item name="touchPositionCorrectionData">@null</item>
+    </style>
+    <style name="MoreKeysKeyboard.ICS" parent="Keyboard.ICS">
+        <item name="keyboardTopPadding">0%p</item>
+        <item name="keyboardBottomPadding">0%p</item>
+        <item name="horizontalGap">0%p</item>
+        <item name="touchPositionCorrectionData">@null</item>
+    </style>
+    <style name="MoreKeysKeyboard.KLP" parent="Keyboard.KLP">
+        <item name="keyboardTopPadding">0%p</item>
+        <item name="keyboardBottomPadding">0%p</item>
+        <item name="horizontalGap">0%p</item>
+        <item name="touchPositionCorrectionData">@null</item>
+    </style>
+    <style name="MoreKeysKeyboard.LXX_Dark" parent="@style/Keyboard.LXX_Dark">
+        <item name="touchPositionCorrectionData">@null</item>
+        <item name="keyboardTopPadding">0.0%p</item>
+        <item name="keyboardBottomPadding">0.0%p</item>
+        <item name="horizontalGap">0.0%p</item>
+    </style>
+    <style name="MoreKeysKeyboardAnimation">
+        <item name="android:windowEnterAnimation">@anim/more_keys_keyboard_fadein</item>
+        <item name="android:windowExitAnimation">@anim/more_keys_keyboard_fadeout</item>
+    </style>
+    <style name="MoreKeysKeyboardContainer"/>
+    <style name="MoreKeysKeyboardContainer.GB">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_gb</item>
+    </style>
+    <style name="MoreKeysKeyboardContainer.ICS">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_ics</item>
+    </style>
+    <style name="MoreKeysKeyboardContainer.KLP">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_klp</item>
+    </style>
+    <style name="MoreKeysKeyboardView" parent="MainKeyboardView"/>
+    <style name="MoreKeysKeyboardView.GB" parent="KeyboardView.GB">
+        <item name="android:background">@null</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_gb</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/more_keys_keyboard_vertical_correction_gb</item>
+    </style>
+    <style name="MoreKeysKeyboardView.ICS" parent="KeyboardView.ICS">
+        <item name="android:background">@null</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_ics</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/more_keys_keyboard_vertical_correction_holo</item>
+    </style>
+    <style name="MoreKeysKeyboardView.KLP" parent="KeyboardView.KLP">
+        <item name="android:background">@null</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_klp</item>
+        <item name="keyTypeface">normal</item>
+        <item name="verticalCorrection">@dimen/more_keys_keyboard_vertical_correction_holo</item>
+    </style>
+    <style name="MoreKeysKeyboardView.LXX_Dark" parent="@style/KeyboardView.LXX_Dark">
+        <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_dark</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_popup_klp</item>
+        <item name="verticalCorrection">@dimen/more_keys_keyboard_vertical_correction_holo</item>
+        <item name="keyTypeface">normal</item>
+    </style>
+    <style name="SuggestionStripView">
+        <item name="suggestionsCountInStrip">@integer/suggestions_count_in_strip</item>
+        <item name="centerSuggestionPercentile">@fraction/center_suggestion_percentile</item>
+        <item name="maxMoreSuggestionsRow">@integer/max_more_suggestions_row</item>
+        <item name="minMoreSuggestionsWidth">@fraction/min_more_suggestions_width</item>
+    </style>
+    <style name="SuggestionStripView.GB" parent="SuggestionStripView">
+        <item name="android:background">@drawable/keyboard_suggest_strip_gb</item>
+        <item name="suggestionStripOption">autoCorrectBold|validTypedWordBold</item>
+        <item name="colorValidTypedWord">@color/highlight_color_gb</item>
+        <item name="colorTypedWord">@color/typed_word_color_gb</item>
+        <item name="colorAutoCorrect">@color/highlight_color_gb</item>
+        <item name="colorSuggested">@color/highlight_color_gb</item>
+        <item name="alphaObsoleted">50%</item>
+    </style>
+    <style name="SuggestionStripView.ICS" parent="SuggestionStripView">
+        <item name="android:background">@drawable/keyboard_suggest_strip_holo</item>
+        <item name="suggestionStripOption">autoCorrectBold|validTypedWordBold</item>
+        <item name="colorValidTypedWord">@color/typed_word_color_ics</item>
+        <item name="colorTypedWord">@color/typed_word_color_ics</item>
+        <item name="colorAutoCorrect">@color/highlight_color_ics</item>
+        <item name="colorSuggested">@color/suggested_word_color_ics</item>
+        <item name="alphaObsoleted">70%</item>
+    </style>
+    <style name="SuggestionStripView.KLP" parent="SuggestionStripView">
+        <item name="android:background">@drawable/keyboard_suggest_strip_holo</item>
+        <item name="suggestionStripOption">autoCorrectBold|validTypedWordBold</item>
+        <item name="colorValidTypedWord">@color/typed_word_color_klp</item>
+        <item name="colorTypedWord">@color/typed_word_color_klp</item>
+        <item name="colorAutoCorrect">@color/highlight_color_klp</item>
+        <item name="colorSuggested">@color/suggested_word_color_klp</item>
+        <item name="alphaObsoleted">70%</item>
+    </style>
+    <style name="SuggestionStripView.LXX_Dark" parent="@style/KeyboardView.LXX_Dark">
+        <item name="android:background">@color/suggestions_strip_background_lxx_dark</item>
+        <!--<item name="suggestionStripOptions">autoCorrectBold|validTypedWordBold</item>-->
+        <item name="colorValidTypedWord">@color/typed_word_color_lxx_dark</item>
+        <item name="colorTypedWord">@color/typed_word_color_lxx_dark</item>
+        <item name="colorAutoCorrect">@color/highlight_color_lxx_dark</item>
+        <item name="colorSuggested">@color/suggested_word_color_lxx_dark</item>
+        <item name="alphaObsoleted">70.00001%</item>
+        <item name="suggestionsCountInStrip">@integer/suggestions_count_in_strip</item>
+        <item name="centerSuggestionPercentile">@fraction/center_suggestion_percentile</item>
+        <item name="maxMoreSuggestionsRow">@integer/max_more_suggestions_row</item>
+        <item name="minMoreSuggestionsWidth">@fraction/min_more_suggestions_width</item>
+    </style>
+    <style name="SuggestionWord"/>
+    <style name="SuggestionWord.GB">
+        <item name="android:background">@drawable/btn_suggestion_gb</item>
+    </style>
+    <style name="SuggestionWord.ICS">
+        <item name="android:background">@drawable/btn_suggestion_ics</item>
+    </style>
+    <style name="SuggestionWord.KLP">
+        <item name="android:background">@drawable/btn_suggestion_klp</item>
+    </style>
+    <style name="SuggestionWord.LXX_Dark" parent="@style/SuggestionWord">
+        <item name="android:textColor">@color/highlight_color_lxx_dark</item>
+        <item name="android:background">@drawable/btn_suggestion_lxx_dark</item>
+    </style>
+    <style name="setupStepActionLabelStyle" parent="setupStepActionLabelStyleCommon"/>
+    <style name="setupStepActionLabelStyleCommon" parent="setupStepBaseStyle">
+        <item name="android:textColor">@color/setup_step_action_color</item>
+        <item name="android:background">@drawable/setup_step_action_background</item>
+        <item name="android:layout_height">@dimen/setup_step_action_height</item>
+        <item name="android:paddingLeft">@dimen/setup_step_horizontal_padding_half</item>
+        <item name="android:textSize">@dimen/setup_step_action_text_size</item>
+        <item name="android:drawablePadding">@dimen/setup_step_horizontal_padding_half</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="setupStepBaseStyle">
+        <item name="android:textColor">@color/setup_text_dark</item>
+        <item name="android:background">@color/setup_step_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/setup_step_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/setup_step_horizontal_padding</item>
+    </style>
+    <style name="setupStepBulletStyle">
+        <item name="android:textColor">@color/setup_text_dark</item>
+        <item name="android:textSize">@dimen/setup_step_bullet_text_size</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="setupStepIndicatorStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/setup_step_triangle_indicator_height</item>
+    </style>
+    <style name="setupStepInstructionStyle" parent="setupStepBaseStyle">
+        <item name="android:textSize">@dimen/setup_step_instruction_text_size</item>
+    </style>
+    <style name="setupStepStartActionLabelStyleCommon" parent="setupStepActionLabelStyleCommon">
+        <item name="android:paddingLeft">@dimen/setup_step_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/setup_step_horizontal_padding</item>
+    </style>
+    <style name="setupStepStartIndicatorStyle">
+        <!-- The triangle indicator here is placed sideways. -->
+        <item name="android:layout_width">@dimen/setup_step_triangle_indicator_height</item>
+        <item name="android:layout_height">@dimen/setup_step_action_height</item>
+    </style>
+    <style name="setupStepTitleStyle" parent="setupStepBaseStyle">
+        <item name="android:textSize">@dimen/setup_step_title_text_size</item>
+    </style>
+    <style name="setupTitleStyle" parent="setupTitleStyleCommon"/>
+    <style name="setupTitleStyleCommon">
+        <item name="android:textColor">@color/setup_text_dark</item>
+        <item name="android:textSize">@dimen/setup_title_text_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="setupWelcomeDescritpionStyle" parent="setupTitleStyle">
+        <item name="android:textSize">@dimen/setup_welcome_description_text_size</item>
+    </style>
+</resources>

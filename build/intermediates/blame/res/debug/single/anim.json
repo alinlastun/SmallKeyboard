@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\anim\\more_keys_keyboard_fadeout.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\anim\\more_keys_keyboard_fadeout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\anim\\more_keys_keyboard_fadein.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\anim\\more_keys_keyboard_fadein.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\anim\\alt_code_key_while_typing_fadeout.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\anim\\alt_code_key_while_typing_fadeout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\anim\\alt_code_key_while_typing_fadein.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\anim\\alt_code_key_while_typing_fadein.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\anim\\language_on_spacebar_fadeout.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\anim\\language_on_spacebar_fadeout.xml"
+    }
+]

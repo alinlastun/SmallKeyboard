@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\color\\emoji_tab_label_color_gb.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\color\\emoji_tab_label_color_gb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\color\\emoji_tab_label_color_holo.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\color\\emoji_tab_label_color_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\color\\setup_step_action_color.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\color\\setup_step_action_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\color\\setup_step_action_background.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\color\\setup_step_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\keyboard_simple_blue\\release\\color\\key_text_color_holo.xml",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\color\\key_text_color_holo.xml"
+    }
+]

@@ -1,0 +1,672 @@
+[
+    {
+        "outputFile": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\incremental\\mergeKeyboard_simple_blueReleaseResources\\merged.dir\\values-sw768dp-land-v13\\values-sw768dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\config.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 704,
+                        "endColumn": 56,
+                        "endOffset": 756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endColumn": 74,
+                    "endOffset": 182
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 2712,
+                        "endColumn": 74,
+                        "endOffset": 2782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 187,
+                    "endColumn": 68,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 2642,
+                        "endColumn": 68,
+                        "endOffset": 2706
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 256,
+                    "endColumn": 65,
+                    "endOffset": 317
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 2575,
+                        "endColumn": 65,
+                        "endOffset": 2636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 322,
+                    "endColumn": 72,
+                    "endOffset": 390
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 2788,
+                        "endColumn": 72,
+                        "endOffset": 2856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 59,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1584,
+                        "endColumn": 59,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 52,
+                    "endOffset": 503
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 2055,
+                        "endColumn": 52,
+                        "endOffset": 2103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 508,
+                    "endColumn": 55,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 2334,
+                        "endColumn": 55,
+                        "endOffset": 2385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 48,
+                    "endOffset": 608
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 48,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 613,
+                    "endColumn": 49,
+                    "endOffset": 658
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1476,
+                        "endColumn": 49,
+                        "endOffset": 1521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 663,
+                    "endColumn": 59,
+                    "endOffset": 718
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 2393,
+                        "endColumn": 59,
+                        "endOffset": 2448
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 723,
+                    "endColumn": 67,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3022,
+                        "endColumn": 67,
+                        "endOffset": 3085
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endColumn": 63,
+                    "endOffset": 850
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 2893,
+                        "endColumn": 63,
+                        "endOffset": 2952
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 855,
+                    "endColumn": 62,
+                    "endOffset": 913
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 2958,
+                        "endColumn": 62,
+                        "endOffset": 3016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 918,
+                    "endColumn": 58,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2144,
+                        "endColumn": 58,
+                        "endOffset": 2198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endColumn": 57,
+                    "endOffset": 1030
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1089,
+                        "endColumn": 57,
+                        "endOffset": 1142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1035,
+                    "endColumn": 59,
+                    "endOffset": 1090
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1348,
+                        "endColumn": 59,
+                        "endOffset": 1403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1095,
+                    "endColumn": 56,
+                    "endOffset": 1147
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1873,
+                        "endColumn": 56,
+                        "endOffset": 1925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1152,
+                    "endColumn": 57,
+                    "endOffset": 1205
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 1814,
+                        "endColumn": 57,
+                        "endOffset": 1867
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1210,
+                    "endColumn": 61,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1148,
+                        "endColumn": 61,
+                        "endOffset": 1205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 63,
+                    "endOffset": 1331
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1409,
+                        "endColumn": 63,
+                        "endOffset": 1468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1336,
+                    "endColumn": 51,
+                    "endOffset": 1383
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 1761,
+                        "endColumn": 51,
+                        "endOffset": 1808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1388,
+                    "endColumn": 58,
+                    "endOffset": 1442
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 58,
+                        "endOffset": 1755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1447,
+                    "endColumn": 52,
+                    "endOffset": 1495
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 1647,
+                        "endColumn": 52,
+                        "endOffset": 1695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1500,
+                    "endColumn": 57,
+                    "endOffset": 1553
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2204,
+                        "endColumn": 57,
+                        "endOffset": 2257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1558,
+                    "endColumn": 62,
+                    "endOffset": 1616
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 1931,
+                        "endColumn": 62,
+                        "endOffset": 1989
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1621,
+                    "endColumn": 67,
+                    "endOffset": 1684
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2263,
+                        "endColumn": 67,
+                        "endOffset": 2326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1689,
+                    "endColumn": 64,
+                    "endOffset": 1749
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1023,
+                        "endColumn": 64,
+                        "endOffset": 1083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1754,
+                    "endColumn": 66,
+                    "endOffset": 1816
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1280,
+                        "endColumn": 66,
+                        "endOffset": 1342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1821,
+                    "endColumn": 63,
+                    "endOffset": 1880
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 958,
+                        "endColumn": 63,
+                        "endOffset": 1017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1885,
+                    "endColumn": 65,
+                    "endOffset": 1946
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1213,
+                        "endColumn": 65,
+                        "endOffset": 1274
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1951,
+                    "endColumn": 54,
+                    "endOffset": 2001
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 900,
+                        "endColumn": 54,
+                        "endOffset": 950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2006,
+                    "endColumn": 62,
+                    "endOffset": 2064
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 2454,
+                        "endColumn": 62,
+                        "endOffset": 2512
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2069,
+                    "endColumn": 58,
+                    "endOffset": 2123
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 1995,
+                        "endColumn": 58,
+                        "endOffset": 2049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2128,
+                    "endColumn": 61,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-sw768dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 3091,
+                        "endColumn": 61,
+                        "endOffset": 3148
+                    }
+                }
+            }
+        ]
+    }
+]

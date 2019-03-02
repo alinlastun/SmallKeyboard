@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e8913447682638dae31f6661ff0ccda678079dba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\incremental-runtime-classes\keyboard_simple_blue\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\transforms\dex\keyboard_simple_blue\debug\folders\1000\10000\instant-run_57b49ab8dd24aedd8a05c6237a83eaec7b5e0989\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\incremental-classes\keyboard_simple_blue\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4a562e60ed2cc46a41115009ca3a5c2bd6d78d9">
+        <dex dex="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\transforms\dex\keyboard_simple_blue\debug\folders\1000\10000\instant-run-bootstrap_c078d3f8b3c2355c5c8b34e5685908b284eea574\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7271134c8fb7a5fffc04b1322dc99aeb944c5f14">
+        <dex dex="C:\Users\Junky2\Documents\Small-Keyboard\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3820a73b64b2b9567493a191a50a0629f79c1b05\classes.dex" />
+    </item>
+
+</items>

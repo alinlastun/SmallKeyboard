@@ -1,0 +1,80 @@
+project.ext.set("archivesBaseName", "IndicKeyboard");
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        //classpath 'com.android.tools.build:gradle:1.1.+'
+        classpath 'com.android.tools.build:gradle:2.3.2'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile fileTree(dir: 'libs', include: '*.jar')
+    //TODO: not working because xml files are not packed
+    //compile project(':morelangs')
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 21
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        aaptOptions {
+            noCompress ".dict"
+        }
+
+        instrumentTest.setRoot('tests')
+    }
+    signingConfigs {
+        keywin {
+            Properties props = new Properties()
+            props.load(new FileInputStream(file("keystore/keywin.properties")))
+            storeFile file(props['key.store'])
+            storePassword props['key.store.password']
+            keyAlias props['key.alias']
+            keyPassword props['key.alias.password']
+        }
+    }
+    productFlavors {
+
+        keyboard_simple_blue {
+            applicationId "com.jb.gokeyboard.theme.BestThemes.simpleblue"
+            versionCode 59
+            versionName "3.0.59"
+            signingConfig signingConfigs.keywin
+            // ndk { abiFilters "armeabi-v7a", "x86", "armeabi", "mips" }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            multiDexEnabled true
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}

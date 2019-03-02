@@ -1,0 +1,49 @@
+[
+    {
+        "outputFile": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 255
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v17\\setup-styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 1113
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v17\\setup-styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 904
+                    }
+                }
+            }
+        ]
+    }
+]

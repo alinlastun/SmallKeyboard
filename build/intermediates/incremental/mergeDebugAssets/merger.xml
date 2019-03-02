@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\Junky2\.android\build-cache\27d8d4b7c7fc683380f197b6db380fc7c061afc2\output\assets"/></dataSet><dataSet config="main"><source path="C:\Users\Junky2\Documents\Small-Keyboard\assets"/><source path="C:\Users\Junky2\Documents\Small-Keyboard\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Junky2\Documents\Small-Keyboard\src\debug\assets"/></dataSet></merger>

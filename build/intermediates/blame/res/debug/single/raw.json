@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_kn.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_kn.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_hi.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_hi.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_ml.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_ml.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\empty.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\empty.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_gu.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_gu.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_en.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_en.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_bn.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_bn.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_te.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_te.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_pa.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_pa.dict"
+    },
+    {
+        "merged": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\res\\merged\\debug\\raw\\main_ta.dict",
+        "source": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\raw\\main_ta.dict"
+    }
+]

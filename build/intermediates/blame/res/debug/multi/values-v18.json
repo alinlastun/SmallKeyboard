@@ -1,0 +1,133 @@
+[
+    {
+        "outputFile": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 540
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 888,
+                        "startColumn": 4,
+                        "startOffset": 26354,
+                        "endLine": 909,
+                        "endColumn": 12,
+                        "endOffset": 26881
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 545,
+                    "endLine": 175,
+                    "endColumn": 12,
+                    "endOffset": 4959
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 431,
+                        "startColumn": 4,
+                        "startOffset": 12983,
+                        "endLine": 588,
+                        "endColumn": 12,
+                        "endOffset": 17575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 4964,
+                    "endLine": 355,
+                    "endColumn": 12,
+                    "endOffset": 10133
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 868,
+                        "endLine": 201,
+                        "endColumn": 12,
+                        "endOffset": 6240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 10138,
+                    "endLine": 519,
+                    "endColumn": 12,
+                    "endOffset": 14642
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 589,
+                        "startColumn": 4,
+                        "startOffset": 17581,
+                        "endLine": 755,
+                        "endColumn": 12,
+                        "endOffset": 22272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 520,
+                    "startColumn": 4,
+                    "startOffset": 14647,
+                    "endLine": 648,
+                    "endColumn": 12,
+                    "endOffset": 18565
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 756,
+                        "startColumn": 4,
+                        "startOffset": 22278,
+                        "endLine": 887,
+                        "endColumn": 12,
+                        "endOffset": 26348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 649,
+                    "startColumn": 4,
+                    "startOffset": 18570,
+                    "endLine": 874,
+                    "endColumn": 12,
+                    "endOffset": 25052
+                },
+                "from": {
+                    "file": "C:\\Users\\Junky2\\Documents\\Small-Keyboard\\res\\values-v18\\emoji-categories.xml",
+                    "position": {
+                        "startLine": 202,
+                        "startColumn": 4,
+                        "startOffset": 6246,
+                        "endLine": 430,
+                        "endColumn": 12,
+                        "endOffset": 12977
+                    }
+                }
+            }
+        ]
+    }
+]

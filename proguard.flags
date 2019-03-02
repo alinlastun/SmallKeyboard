@@ -1,0 +1,18 @@
+# Keep classes and methods that have the @UsedForTesting annotation
+-keep @com.themejunky.small.annotations.UsedForTesting class *
+-keepclassmembers class * {
+    @com.themejunky.small.annotations.UsedForTesting *;
+}
+
+# Keep classes and methods that have the @ExternallyReferenced annotation
+-keep @com.themejunky.small.annotations.ExternallyReferenced class *
+-keepclassmembers class * {
+    @com.themejunky.small.annotations.ExternallyReferenced *;
+}
+
+# Keep native methods
+-keepclassmembers class * {
+    native <methods>;
+}
+
+-keep class android.support.v4.** { *; }
